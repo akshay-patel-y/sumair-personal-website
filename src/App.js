@@ -143,7 +143,7 @@ function App() {
 
             {/** This is my experience section*/}
             <div className="content">
-                <div className="test"><h2> My organizations and activities </h2></div>
+                <div className="test"><h2>   My Organizations and Activities </h2></div>
                 <div class="grid-container">
                     <Modals name="Berkeley Venture Capital"
                         pic={require("./images/bvc.png")}
