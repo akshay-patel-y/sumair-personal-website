@@ -18,10 +18,12 @@ const Modals = ({ name, pic, description, timeline, title, bullets }) => {
                 }}
                 // shouldCloseOnOverlayClick={false}
             >
+                <div className="modal-container">
+
                 <h1 className="test">{name}</h1>
                 <img className="modsize" src={pic} alt="Ross" />
                 {/** THis is my Exp Section */}
-             
+                
                     <div className="exp-text-container">
                         <p className="exp">
                             {description} <p className="title">{title} - {timeline}</p>
@@ -29,10 +31,11 @@ const Modals = ({ name, pic, description, timeline, title, bullets }) => {
                         <ul >{bullets.map(item=><li key={item}>{item}</li>)}</ul>
                     </div>
                
-                <div>
-                    <button onClick={() => setModalIsOpen(!modalIsOpen)}>
+           
+                    <button className="button" onClick={() => setModalIsOpen(!modalIsOpen)}>
                         Close
                     </button>
+              
                 </div>
             </Modal>
         </div>
