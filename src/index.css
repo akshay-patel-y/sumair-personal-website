@@ -1,0 +1,197 @@
+.profile-container {
+    /* border: 2px solid black;
+    */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 20px;
+
+}
+body {
+    background-color: #121621;
+    font-family: monospace;
+    color: #c0c5ce;
+}
+
+.main {
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter {
+    width: auto;
+    display: inline-block;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        max-width: 0;
+    }
+    to {
+        max-width: 100%;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+.profile {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bio-container {
+    display: flex;
+    border: 2px solid black;
+}
+
+.bio {
+    /*
+    border: 2px solid yellow;
+    */
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+}
+
+.bio-text-container {
+    /*
+    border: 2px solid slateblue;
+    */
+}
+
+.exp {
+    /*
+    border: 2px solid yellow;
+    */
+    font-size: 20px;
+    text-align: center;
+    color: solid black;
+    font-family: monospace;
+    text-emphasis-color: solid black;
+}
+
+.experience-section {
+    margin: 12px 0;
+    border: tan 2px dashed;
+}
+
+.project-section {
+    margin: 12px 0;
+    border: lemonchiffon 2px dashed;
+}
+
+
+
+.exp-profile {
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.exp-text-container {
+    /*
+    border: 2px solid red;
+    */
+    padding-top: 50px;
+  padding-right: 225px;
+  padding-bottom: 50px;
+  padding-left: 225px;
+  color: black;
+}
+
+.title {
+    font-style: italic;
+    color: black;
+}
+
+.modsize {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+}
+
+.experience-images {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
+}
+
+
+.test {
+    text-align: center;
+    color: black;
+    
+}
+
+.bio-action {
+    align-items: center;
+    margin-top: auto;
+}
+
+
+.button {
+    margin-right: auto;
+    background-color: transparent;
+    padding: 16px 32px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: 2px solid;
+    outline: none;
+    border-radius: 16px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    font-size: 18px;
+    list-style: square;
+}
