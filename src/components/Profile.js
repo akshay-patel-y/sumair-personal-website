@@ -19,6 +19,13 @@ const Profile = ({ name, pic, bio, tag, title }) => {
                 <div class="bio-action">
                     <a href={Resume} target="_blank" rel="noopener noreferrer" class="button">View Resume</a>
                 </div>
+                <a href="https://github.com/akshay-patel-y" class="fa fa-github fa-3x"></a>
+
+                <a href="https://www.linkedin.com/in/akshay-patel-/" class="fa fa-linkedin fa-3x"></a>
+
+                <a href="mailto:_akshaypatel_@berkeley.edu" class="fa fa-envelope fa-3x"></a>
+
+
             </div>
         </div>
     )
