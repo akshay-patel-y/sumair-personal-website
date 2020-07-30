@@ -109,7 +109,7 @@ function App() {
                         timeline="June 2018 - Feb. 2020"
                         title="Curriculum Designer"
                         bullets={[
-                            'Led a team focused on building future curriculums which are accessible on the website and available for children in other countries',
+                            'Focused on building future curriculums which are accessible on the website and available for children in other countries',
                             'Devised a 3D-printing CAD curriculum that enables students to design and print 3D-printed objects using Fusion 360.',
                             'Generated ideas and future applications for computer aided design curriculum kit.',
                             'Determine unique activities and combined the engineering process and programming skills for a teaching curriculum.',
