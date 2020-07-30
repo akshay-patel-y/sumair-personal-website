@@ -64,7 +64,7 @@ function App() {
                         timeline="June, 2020 - August,2020"
                         title="Machine Learning Infrastructure Engineering Intern "
                         bullets={
-                            ["hello"]
+                            [""]
                         }
                     />
                     <Modals
