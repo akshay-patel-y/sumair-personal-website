@@ -64,7 +64,7 @@ function App() {
                         timeline="June, 2020 - August,2020"
                         title="Machine Learning Infrastructure Engineering Intern "
                         bullets={
-                            [""]
+                            ["Created intranet using ReactJS/HTML/CSS & documented architecture overview for LBDD/SBDD machine learning models and researched hyperparameter tuning methods for the hit-optimization generative neural network at 1910."]
                         }
                     />
                     <Modals
@@ -83,7 +83,7 @@ function App() {
                         name="Blendoor"
                         pic={require('./images/blendoor.PNG')}
                         description="Company: Blendoor evaluates companies based on factors such as equity metrics, diversity, recruiting practices, leadership, among others to generate a 'BlendScore' for each company."
-                        timeline="Jan. 2020 - May 2020"
+                        timeline="Jan. 2020 - Current"
                         title="Software Developer"
                         bullets={[
                             "BlendScore Automation Project: In a team of 5 engineers on the M.E.T Bulletin Board (Technical Consulting Organization), our goal was to automate the BlendScore calculation through a web interface where admin users can edit certain qualitative and quantitative variables related to a company in order to produce an updated BlendScore. After updating Blendoor's score calculation algorithms, we built a RESTful API with python and Flask to run backend python scripts that would execute SQL queries to communicate with Blendoor's internal database and used AngularJS, TypeScript, and HTML/CSS to build the frontend UI",
