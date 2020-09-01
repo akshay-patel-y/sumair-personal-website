@@ -62,9 +62,10 @@ function App() {
                         pic={require('./images/1910.png')}
                         description="1910 Genetics is a startup focused on AI-driven small molecule and protein design."
                         timeline="June, 2020 - August,2020"
-                        title="Machine Learning Infrastructure Engineering Intern "
+                        title="Machine Learning Infrastructure Engineering Intern n (Y Combinator W2018)"
                         bullets={
-                            ["Created intranet using ReactJS/HTML/CSS & documented architecture overview for LBDD/SBDD machine learning models and researched hyperparameter tuning methods for the hit-optimization generative neural network at 1910."]
+                            ["Created architecture overviews for ML pipelines, conglomerating reusable components (data base, data transformation, data validation, model training, model evaluation, and serving infrastructure) for the machine learning platform Noelle.",
+                            "Developed intranet using ReactJS/HTML/CSS for documented architecture/product demo for LBDD/SBDD ML models and researched hyperparameter tuning methods employed for the hit-optimization generative neural network at 1910."]
                         }
                     />
                     <Modals
