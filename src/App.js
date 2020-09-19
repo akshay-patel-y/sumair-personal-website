@@ -99,7 +99,7 @@ function App() {
                         bullets={[
                             'Assisted creation of the architecture for various mini-apps available on LoopChat such as club and class database.',
                             'Streamlined business strategies focused on increasing user downloads and retention through gamifying the platform.',
-                            'Implemented procedures that increased downloads by 32% and marketed to various departments at UC Berkeley.',
+                            'Implemented procedures that increased downloads by 232% and marketed to various departments at UC Berkeley.',
                             'Proposed simplification plan of UI/UX of the app and presented to internal and external stakeholders.',
                         ]}
                     />
