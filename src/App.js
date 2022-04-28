@@ -40,7 +40,7 @@ function App() {
           name="Akshay Patel"
           pic={require("./images/headshot.jpg")}
           bio="I'm currently a Junior in UC Berkeley's Management, Entrepreneurship, and Technology (M.E.T.) program, pursuing a dual degree in Electrical Engineering and Computer Science and Business Administration. Through my varied work experiences from start-ups to corporations of all sizes, I have developed skills in product management, software development, and data analysis.
-                    I am also recruiting for Summer 2022 internship opportunities, particularly in crypto, software development, and VC positions. Please feel free to reach out at _akshaypatel_ @berkeley.edu."
+                    Please feel free to reach out at _akshaypatel_ @berkeley.edu."
           tag="Resume"
           title="University of California, Berkeley M.E.T 23'"
         />
@@ -68,6 +68,28 @@ function App() {
             title="Venture Fellow"
             bullets={[
               "Sourcing pre-seed to seed-stage start-ups and conducting due diligence to evaluate investment opportunities at Cal.",
+              "Conducted due dillegece on potential investments accross L1's, DEXs, & Liquidity Staking Protocols",
+              "Led office hours for founders at Capitol Factor (Texas) & Bay Area to maintain industry relations in the ecosystem"
+            ]}
+          />
+          <Modals
+            name="Bonfire"
+            pic={require("./images/Bonfire.png")}
+            timeline="Nov. 2021 - Current"
+            title="Software Engineer"
+            bullets={[
+              "Engineered MetaMask/WalletConnect integration on platform using Next.Js, GraphQL, web3-token, Rally API, Prisma",
+              "Developed and shipped various features & projects into production for creators such as Daniel Allan, Odesza, DAOs, etc."
+            ]}
+          />
+          <Modals
+            name="Kleiner Perkins"
+            pic={require("./images/KP.png")}
+            description="Summer 2022"
+            timeline="April. 2022 - Current"
+            title="Kleiner Perkins Engineering Fellow 2022"
+            bullets={[
+              "KP Fellow through Bonfire",
             ]}
           />
           <Modals
@@ -204,16 +226,6 @@ function App() {
               "Developed financial models based different market penetration predictions and COGS and developed a marketing plan.",
               "Executed a proof of concept trial for a 2-week period at Westlake High School that generated $800 in profit.",
               "Analyzed the feedback from consumers about the service and quality to make future improvements",
-            ]}
-          />
-          <Modals
-            name="Pensa"
-            pic={require("./images/pensa.png")}
-            description="Pensa operates as data subscription service using an autonomous perception system to obtain and record inventory. "
-            timeline="June, 2019 - Aug, 2019"
-            title="Project Intern"
-            bullets={[
-              "Obtained data from H.E.B on various brands of products to help grow database for AI processing",
             ]}
           />
         </div>
