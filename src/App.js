@@ -39,7 +39,7 @@ function App() {
         <Profile
           name="Akshay Patel"
           pic={require("./images/headshot.jpg")}
-          bio="I'm currently a Junior in UC Berkeley's Management, Entrepreneurship, and Technology (M.E.T.) program, pursuing a dual degree in Electrical Engineering and Computer Science and Business Administration. Through my varied work experiences from start-ups to corporations of all sizes, I have developed skills in product management, software development, and data analysis.
+          bio="I'm currently a student in UC Berkeley's Management, Entrepreneurship, and Technology (M.E.T.) program, pursuing a dual degree in Electrical Engineering and Computer Science and Business Administration. Through my varied work experiences from start-ups to corporations of all sizes, I have developed skills in product management, software development, and data analysis.
                     Please feel free to reach out at _akshaypatel_ @berkeley.edu."
           tag="Resume"
           title="University of California, Berkeley M.E.T 23'"
