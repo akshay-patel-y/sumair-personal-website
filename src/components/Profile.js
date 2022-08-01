@@ -16,9 +16,6 @@ const Profile = ({ name, pic, bio, tag, title }) => {
                     <p className="typewriter">{title}</p>
                 </div>
                 <p className="bio">{bio}</p>
-                <div class="bio-action">
-                    <a href={Resume} target="_blank" rel="noopener noreferrer" class="button">View Resume</a>
-                </div>
                 <a href="https://github.com/akshay-patel-y" class="fa fa-github fa-3x"></a>
 
                 <a href="https://www.linkedin.com/in/akshay-patel-/" class="fa fa-linkedin fa-3x"></a>

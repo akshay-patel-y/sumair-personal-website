@@ -60,6 +60,13 @@ function App() {
           <h2> My Experiences </h2>
         </div>
         <div class="grid-container">
+        <Modals
+            name="Coinbase"
+            pic={require("./images/CB.png")}
+            timeline="June. 2022 - Current"
+            title="Software Engineering Intern - Security and Resillience Team"
+            bullets={[]}
+          />
           <Modals
             name="Pear VC"
             pic={require("./images/Pear.png")}
