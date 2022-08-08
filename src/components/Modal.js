@@ -5,6 +5,7 @@ Modal.setAppElement('#root')
 
 const Modals = ({ name, pic, description, timeline, title, bullets }) => {
     const [modalIsOpen, setModalIsOpen] = useState(false)
+    
     return (
         <div className="grid-item" onClick={() => setModalIsOpen(!modalIsOpen)}>
             <img className="experience-images" src={pic} alt="" />
