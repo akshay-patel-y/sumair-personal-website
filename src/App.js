@@ -60,12 +60,16 @@ function App() {
           <h2> My Experiences </h2>
         </div>
         <div class="grid-container">
-        <Modals
+          <Modals
             name="Coinbase"
             pic={require("./images/CB.png")}
             timeline="June. 2022 - Current"
             title="Software Engineering Intern - Security and Resillience Team"
-            bullets={[]}
+            bullets={[
+              "Identified security threats by creating a product service map (ReactJs, MongoDB, Go) to audit and determine interdependencies of key services to develop disaster recovery plans and boost coverage by 72%.",
+              "Constructed service/asset flittering API using gRPC & GoLang; Led to advanced discoverability based on sub-attributes",
+              "Decomposed Golang-based microservice architecture and software configuration to enable 5 security failsafe implementations across key products (Exchange, Custody, Prime Brokerage, Retail) and validated audit findings across cross-functional teams",
+            ]}
           />
           <Modals
             name="Pear VC"
@@ -74,9 +78,10 @@ function App() {
             timeline="Oct. 2020 - Current"
             title="Venture Fellow"
             bullets={[
-              "Sourcing pre-seed to seed-stage start-ups and conducting due diligence to evaluate investment opportunities at Cal.",
-              "Conducted due dillegece on potential investments accross L1's, DEXs, & Liquidity Staking Protocols",
-              "Led office hours for founders at Capitol Factor (Texas) & Bay Area to maintain industry relations in the ecosystem"
+              "Sourcing pre-seed to seed-stage start-ups and conducting due diligence to evaluate investment opportunities.",
+              "Analyzed 25+ crypto white papers for due diligence on potential investments across L1’s, DEXs, & Liquidity Staking protocols",
+              "Lead monthly office hours for web3 founders at Capitol Factory (Texas) & in the Bay Area to strengthen founder networks",
+              "Conduct internal research on emerging market trends covering asset & application interoperability, ZKs, and scalability solutions",
             ]}
           />
           <Modals
@@ -85,8 +90,11 @@ function App() {
             timeline="Nov. 2021 - Current"
             title="Software Engineer"
             bullets={[
+              "Developed and shipped various key features (NFT Showcase, Block Interface) that enabled artists such as Daniel Allan to launch NFT on platform",
               "Engineered MetaMask/WalletConnect integration on platform using Next.Js, GraphQL, web3-token, Rally API, Prisma",
-              "Developed and shipped various features & projects into production for creators such as Daniel Allan, Odesza, DAOs, etc."
+              "Used customer feedback and collaborated with design teams to prioritize implementation solutions",
+              "Developed and shipped various features & projects into production for creators such as Daniel Allan, Odesza, DAOs, etc.",
+              "Architected embed block tool template to enable creators to surface custom content with low friction/error rate",
             ]}
           />
           <Modals
@@ -95,9 +103,7 @@ function App() {
             description="Summer 2022"
             timeline="April. 2022 - Current"
             title="Kleiner Perkins Engineering Fellow 2022"
-            bullets={[
-              "KP Fellow through Bonfire",
-            ]}
+            bullets={["KP Fellow through Bonfire"]}
           />
           <Modals
             name="Amazon"
@@ -105,9 +111,7 @@ function App() {
             description="Feature Migration on Music Mobile Platform"
             timeline="Aug. 2021 - Current"
             title="Software Development Engineering Intern"
-            bullets={[
-              "Fall Co-Op",
-            ]}
+            bullets={["Fall Co-Op"]}
           />
           <Modals
             name="GSV Ventures"
@@ -116,8 +120,8 @@ function App() {
             timeline="June. 2021 - Aug. 2021"
             title="Venture Fellow"
             bullets={[
-                "Building relationships between Berkeley Student organizations and the Venture fund for summer bootcamp",
-              "Sourcing industry agnostic early-stage start-ups and founders" 
+              "Building relationships between Berkeley Student organizations and the Venture fund for summer bootcamp",
+              "Sourcing industry agnostic early-stage start-ups and founders",
             ]}
           />
           <Modals
@@ -132,8 +136,7 @@ function App() {
               "Integrated 4 payment flows via Stripe, handling $25k+ transactions per month & allowing users to view & purchase packages.",
               "Created a product roadmap for integration of NFT/FT’s onto platform and reduce payment barriers for users.",
               "Optimized API caching for payment flow reducing the number of HTTP requests by over 33% per transaction.",
-              "Analyzed market trends and shifted company focus from entertainment creators to small businesses and Edtech to drive revenue"
-
+              "Analyzed market trends and shifted company focus from entertainment creators to small businesses and Edtech to drive revenue",
             ]}
           />
           <Modals
@@ -145,7 +148,7 @@ function App() {
             bullets={[
               "Optimized bottlenecks in design workflow & reduced sketching analytics time by 75% by developing a modal tutorial system",
               "Improved user experience by revamping the frontend interface for rollout using ReactJs, Chakra-UI, & Material UI.",
-              "Converted user feedback into user stories, & process flows wireframes for development."
+              "Converted user feedback into user stories, & process flows wireframes for development.",
             ]}
           />
           <Modals
