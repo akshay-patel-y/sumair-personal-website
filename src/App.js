@@ -63,7 +63,7 @@ function App() {
           <Modals
             name="Coinbase"
             pic={require("./images/CB.png")}
-            timeline="June. 2022 - Current"
+            timeline="June 2022 - Sept. 2022"
             title="Software Engineering Intern - Security and Resillience Team"
             bullets={[
               "Identified security threats by creating a product service map (ReactJs, MongoDB, Go) to audit and determine interdependencies of key services to develop disaster recovery plans and boost coverage by 72%.",
