@@ -5,25 +5,26 @@
  * PostCSS documentation: https://github.com/postcss/postcss
  *
  */
-const tailwindcss = require('tailwindcss');
-const purgecss = require('@fullhuman/postcss-purgecss');
-const cssnano = require('cssnano');
+const tailwindcss = require("tailwindcss");
+const purgecss = require("@fullhuman/postcss-purgecss");
+const cssnano = require("cssnano");
 
 module.exports = {
-	plugins: [
-		tailwindcss('./tailwind.js'),
-		process.env.NODE_ENV === 'production' ? require('autoprefixer') : null,
-		process.env.NODE_ENV === 'production'
-			? cssnano({ preset: 'default' })
-			: null,
-		purgecss({
-			content: [
-				'./src/**/*.html',
-				'./src/**/*.js',
-				'./src/**/*.jsx',
-				'./dist/index.html',
-			],
-			defaultExtractor: (content) => content.match(/[A-Za-z0-9-_:/]+/g) || [],
-		}),
-	].filter(Boolean),
+  plugins: [
+    tailwindcss("./tailwind.js"),
+    process.env.NODE_ENV === "production" && require("autoprefixer"),
+    process.env.NODE_ENV === "production" && cssnano({ preset: "default" }),
+    process.env.NODE_ENV === "production" &&
+      purgecss({
+        content: [
+          "./src/**/*.html",
+          "./src/**/*.js",
+          "./src/**/*.jsx",
+          "./src/**/*.ts",
+          "./src/**/*.tsx",
+          "./dist/index.html",
+        ],
+        defaultExtractor: (content) => content.match(/[A-Za-z0-9-_:/]+/g) || [],
+      }),
+  ].filter(Boolean), // This removes any false, null, or undefined values from the plugins array
 };
