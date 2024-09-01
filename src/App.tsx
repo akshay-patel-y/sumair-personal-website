@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
+import ExperienceList from "./components/ExperienceList";
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/experience" element={<Experience />} />
+            <Route path="/experience" element={<ExperienceList />} />
           </Routes>
         </div>
       </div>
