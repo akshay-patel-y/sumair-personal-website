@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6efc635e.chunk.css",
+    "main.js": "/static/js/main.22037d56.chunk.js",
+    "main.js.map": "/static/js/main.22037d56.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1c47a842.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1c47a842.js.map",
+    "static/js/2.2bca58fb.chunk.js": "/static/js/2.2bca58fb.chunk.js",
+    "static/js/2.2bca58fb.chunk.js.map": "/static/js/2.2bca58fb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cc8fc52f4cdec8b8067e9af0ce272745.js": "/precache-manifest.cc8fc52f4cdec8b8067e9af0ce272745.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6efc635e.chunk.css.map": "/static/css/main.6efc635e.chunk.css.map",
+    "static/js/2.2bca58fb.chunk.js.LICENSE.txt": "/static/js/2.2bca58fb.chunk.js.LICENSE.txt",
+    "static/media/1910.png": "/static/media/1910.9c2f94bb.png",
+    "static/media/Akshay_Patel.jpg": "/static/media/Akshay_Patel.7265ce28.jpg",
+    "static/media/Avance.jfif": "/static/media/Avance.65c63d84.jfif",
+    "static/media/Bonfire.png": "/static/media/Bonfire.f8f8c91e.png",
+    "static/media/CB.png": "/static/media/CB.b73c7938.png",
+    "static/media/index.css": "/static/media/CommitMonoV142-700Regular.c3fbc36a.otf",
+    "static/media/GSV.png": "/static/media/GSV.42c08b63.png",
+    "static/media/LA.gif": "/static/media/LA.aedfb0ad.gif",
+    "static/media/Loop.png": "/static/media/Loop.948d9044.png",
+    "static/media/Zighra.png": "/static/media/Zighra.5c61a52f.png",
+    "static/media/blendoor.PNG": "/static/media/blendoor.e8d87581.PNG",
+    "static/media/bvc.png": "/static/media/bvc.c2389534.png",
+    "static/media/oll.PNG": "/static/media/oll.77929c70.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c47a842.js",
+    "static/js/2.2bca58fb.chunk.js",
+    "static/css/main.6efc635e.chunk.css",
+    "static/js/main.22037d56.chunk.js"
+  ]
+}

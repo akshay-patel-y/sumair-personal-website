@@ -20,8 +20,7 @@
     "react-modal": "^3.11.2",
     "react-particles-js": "^3.2.1",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "3.4.1",
-    "typescript": "^5.5.4"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
@@ -52,6 +51,7 @@
     "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5",
     "react-social-icons": "^4.1.0",
-    "tailwindcss": "^1.5.1"
+    "tailwindcss": "^1.5.1",
+    "typescript": "^5.5.4"
   }
 }
