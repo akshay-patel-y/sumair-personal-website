@@ -1,5 +1,5 @@
 export enum Category {
-  Software = "Software",
+  Software = "Software Engineering",
   Product = "Product",
   VentureCapital = "Venture Capital",
 }

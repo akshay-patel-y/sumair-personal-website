@@ -10,14 +10,15 @@ interface ProfileProps {
 
 const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
   return (
-    <div>
+    <div
+    >
       <img
         src={headshot}
         alt="Akshay Patel"
         style={{
           width: "100px",
           borderRadius: "10%",
-          marginRight: "10px"
+          marginRight: "10px",
         }}
       />
       <h1 className="typewriter">
