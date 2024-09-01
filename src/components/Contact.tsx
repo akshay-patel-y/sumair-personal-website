@@ -12,7 +12,7 @@ const Contact = () => {
 				<input type="email" name="" id="" />
 			</div>
 			<label htmlFor="message">
-				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<textarea name="" id="" cols={30} rows={10}></textarea>
 			</label>
 			<button type="submit">Send</button>
 		</form>
