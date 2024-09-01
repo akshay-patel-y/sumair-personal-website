@@ -67,54 +67,6 @@
   margin: 0 auto;
 }
 
-.grid-container {
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-}
-
-.grid-item {
-  font-size: 30px;
-  text-align: center;
-}
-
-.experience-images {
-  width: 300px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.experience-images:hover {
-  opacity: 0.5;
-}
-
-.button {
-  margin: auto;
-  background-color: transparent;
-  padding: 16px 32px;
-  font-size: 1.3rem;
-  align-self: center;
-  display: inline-flex;
-  font-weight: 700;
-  border: 2px solid;
-  outline: none;
-  border-radius: 16px;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-}
-.button:hover {
-  background-color: rgb(25, 31, 51);
-  color: white;
-  border: 2px solid white;
-}
-
 /* Styles for the icons in the Profile component */
 
 .profile-container .fa {
@@ -179,14 +131,68 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Grid Layout */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Adjust for better responsiveness */
+  gap: 2rem; /* Increase the gap between items for better spacing */
+  padding: 1rem; /* Add padding to the grid for better alignment */
 }
 
-h2 {
-  font-size: 1.5rem;
+.grid-item {
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px; /* Slightly rounded corners */
+  padding: 1rem; /* Padding inside each grid item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  font-family: "Commit Mono", monospace; /* Keep font consistent */
+}
+
+.grid-item:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.experience-images {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
   margin-bottom: 1rem;
+  border-radius: 8px; /* Match the border radius of the grid item */
+  cursor: pointer;
+}
+
+.experience-images:hover {
+  opacity: 0.8; /* Subtle fade effect on hover */
+}
+
+/* Modal Styles */
+.modal-container {
+  padding: 2rem;
+  background-color: #ffffff; /* White background for the modal */
+  border-radius: 8px; /* Rounded corners for the modal */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for the modal */
+  font-family: "Commit Mono", monospace; /* Keep font consistent */
+}
+
+.button {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 1rem;
+  align-self: center;
+  font-weight: 700;
+  border: 2px solid #2e2e2e; /* Dark gray border to match the theme */
+  border-radius: 8px;
+  cursor: pointer;
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Commit Mono", monospace; /* Keep font consistent */
+}
+
+.button:hover {
+  background-color: #2e2e2e; /* Dark gray background on hover */
+  color: #ffffff; /* White text on hover */
+  border-color: #ffffff; /* White border on hover */
 }

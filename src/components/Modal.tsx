@@ -23,10 +23,8 @@ const Modals: React.FC<ModalsProps> = ({ name, pic, description, timeline, title
                 onRequestClose={() => setModalIsOpen(!modalIsOpen)}
                 style={{
                     overlay: {
-                        // backgroundColor: 'grey',
                     },
                 }}
-                // shouldCloseOnOverlayClick={false}
             >
                 <div className="modal-container">
                     <h1 className="test">{name}</h1>
