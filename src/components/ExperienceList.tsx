@@ -1,15 +1,24 @@
 import React from "react";
-import { experiences } from "../experienceData";
+import { Category, experiences } from "../experienceData";
 import ExperienceAccordion from "./ExperienceAccordion";
 
 const ExperienceList: React.FC = () => {
-    return (
-        <div className="experience-list">
-            {experiences.map((experience, index) => (
-                <ExperienceAccordion key={index} experience={experience} />
+  const categories = [Category.Software, Category.VentureCapital, Category.Product];
+
+  return (
+    <div className="experience-list">
+      {categories.map((category) => (
+        <div key={category}>
+          <h2>{category} Experience</h2>
+          {experiences
+            .filter((experience) => experience.category === category)
+            .map((experience, index) => (
+              <ExperienceAccordion key={index} experience={experience} />
             ))}
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default ExperienceList;

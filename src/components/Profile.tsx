@@ -17,6 +17,7 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
         style={{
           width: "100px",
           borderRadius: "10%",
+          marginRight: "10px"
         }}
       />
       <h1 className="typewriter">

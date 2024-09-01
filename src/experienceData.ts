@@ -1,3 +1,8 @@
+export enum Category {
+  Software = "Software",
+  Product = "Product",
+  VentureCapital = "Venture Capital",
+}
 export interface Experience {
   name: string;
   pic: string;
@@ -5,14 +10,24 @@ export interface Experience {
   timeline: string;
   title: string;
   bullets: string[];
+  category: Category;
 }
 
 export const experiences: Experience[] = [
+  {
+    name: "Typeface",
+    pic: require("./images/Typeface.jpeg"),
+    timeline: "Sept. 2023 - Current",
+    title: "Software Engineer",
+    category: Category.Software,
+    bullets: ["Building an Enterpise grade AI marketing agent"],
+  },
   {
     name: "Coinbase",
     pic: require("./images/CB.png"),
     timeline: "June 2022 - Sept. 2022",
     title: "Software Engineering Intern - Security and Resilience Team",
+    category: Category.Software,
     bullets: [
       "Developed high-performance asset filtering API using gRPC and Go, enhancing service reliability and query speed by 40%",
       "Architected and implemented full-stack asset management solution using React, MongoDB, and Go, resulting in 60% faster sub-attribute searches and improved user productivity",
@@ -26,8 +41,10 @@ export const experiences: Experience[] = [
     description:
       "Company: 0 to 1 VC fund partnering with entrepreneurs from day one. Investments include Doordash, Guardant Health, and Branch",
     timeline: "Oct. 2020 - Current",
-    title: "Venture Fellow",
+    title: "Venture Scout",
+    category: Category.VentureCapital,
     bullets: [
+      "Deals Sourced: Brutus AI (PearX) -> Acquisition by Forta Health; Advex AI (PearX) -> Seed from Emmerson Collective and Kleiner Perkins; Poppin (Seed); My AI Front Desk (Offered PearX, UC Berkeley $50k Competition Winner).",
       "Sourcing pre-seed to seed-stage start-ups and conducting due diligence to evaluate investment opportunities.",
       "Analyzed 25+ crypto white papers for due diligence on potential investments across L1’s, DEXs, & Liquidity Staking protocols",
       "Lead monthly office hours for web3 founders at Capitol Factory (Texas) & in the Bay Area to strengthen founder networks",
@@ -35,10 +52,23 @@ export const experiences: Experience[] = [
     ],
   },
   {
+    name: "Pantera Capital",
+    pic: require("./images/Pantera.png"),
+    description:
+      "Company: 0 to 1 VC fund partnering with entrepreneurs from day one. Investments include Doordash, Guardant Health, and Branch",
+    timeline: "Jan. 2023 - Current",
+    title: "Investment Analyst",
+    category: Category.VentureCapital,
+    bullets: [
+      "Working with the investment team to drive internal research on asset & application interoperability, ZKs, and scalability",
+    ],
+  },
+  {
     name: "Bonfire",
     pic: require("./images/Bonfire.png"),
-    timeline: "Nov. 2021 - Current",
+    timeline: "Nov. 2021 - Sept. 2023",
     title: "Software Engineer",
+    category: Category.Software,
     bullets: [
       "Developed and shipped various key features (NFT Showcase, Block Interface) that enabled artists such as Daniel Allan to launch NFT on platform",
       "Engineered MetaMask/WalletConnect integration on platform using Next.Js, GraphQL, web3-token, Rally API, Prisma",
@@ -53,14 +83,16 @@ export const experiences: Experience[] = [
     description: "Summer 2022",
     timeline: "April. 2022 - Current",
     title: "Kleiner Perkins Engineering Fellow 2022",
+    category: Category.VentureCapital,
     bullets: ["KP Fellow through Bonfire"],
   },
   {
     name: "Amazon",
     pic: require("./images/Amazon.png"),
     description: "Feature Migration on Music Mobile Platform",
-    timeline: "Aug. 2021 - Current",
+    timeline: "Aug. 2021 - Nov. 2021",
     title: "Software Development Engineering Intern",
+    category: Category.Software,
     bullets: [
       "Migrated Amazon Music user settings interface from Objective-C/Swift to SwiftUI with MVVM, improving usability",
       "Updated and implemented settings navigation architecture and simplified adding new pages to nodes on a tree",
@@ -71,9 +103,10 @@ export const experiences: Experience[] = [
     name: "GSV Ventures",
     pic: require("./images/GSV.png"),
     description:
-      "GSV Ventures is a female-led, multi-stage venture capital firm investing in the $7+ trillion education technology sector across Pre-K to Gray.",
+      "GSV Ventures is a female-led, multi-stage venture capital firm investing in the $7+ trillion education technology sector.",
     timeline: "June. 2021 - Aug. 2021",
     title: "Venture Fellow",
+    category: Category.VentureCapital,
     bullets: [
       "Building relationships between Berkeley Student organizations and the Venture fund for summer bootcamp",
       "Sourcing industry agnostic early-stage start-ups and founders",
@@ -86,6 +119,7 @@ export const experiences: Experience[] = [
       "Zighra is a leading provider of On-Device AI solutions for continuous authentication and fraud detection on mobile and web applications.",
     timeline: "May. 2021 - Aug. 2021",
     title: "Software Engineering Intern",
+    category: Category.Software,
     bullets: [
       "Developed & deployed Spur, a mobile cross-platform (iOS, Android) marketplace for users to view & purchase online classes.",
       "Prototyped, designed, & developed end-to-end user flow from login (authentication, OTP, and storage), to payment, to upcoming events notification & zoom re-direct on app. (React Native, Stripe, Postman, React Navigation, Node.Js, AdobeXD)",
@@ -102,6 +136,7 @@ export const experiences: Experience[] = [
       "Savitude provides an inclusive fashion technology solution for brands who want to serve a broader audience.",
     timeline: "Feb. 2021 - May 2021",
     title: "Software Engineering Intern",
+    category: Category.Software,
     bullets: [
       "Optimized bottlenecks in design workflow & reduced sketching analytics time by 75% by developing a modal tutorial system",
       "Improved user experience by revamping the frontend interface for rollout using ReactJs, Chakra-UI, & Material UI.",
@@ -115,6 +150,7 @@ export const experiences: Experience[] = [
       "Avance is a start-up lab geared towards creating sustainably profitable software ideas, quickly, and systematically.",
     timeline: "Dec. 2020 - Feb. 2021",
     title: "Product Manager",
+    category: Category.Product,
     bullets: [
       "Led industry deep dive & competitor analysis on online financial institutions to develop product proposals & requirements",
       "Defined key product features in Figma with cross-functional team of marketers & software engineers using Agile methodologies",
@@ -126,6 +162,7 @@ export const experiences: Experience[] = [
     description:
       "1910 Genetics is a startup focused on AI-driven small molecule and protein design.",
     timeline: "June, 2020 - August,2020",
+    category: Category.Software,
     title:
       "Machine Learning Infrastructure Engineering Intern (Y Combinator W2018)",
     bullets: [
@@ -140,6 +177,7 @@ export const experiences: Experience[] = [
       "LA County Department of Public Health is currently performing research regarding the proximity of cell towers to schools and hospitals.",
     timeline: "April. 2020 – May 2020",
     title: "Data Analyst",
+    category: Category.Software,
     bullets: [
       "Documented procedures and processed raw data to create an interactive tableau dashboard for a research paper",
       "Performed statistical analyses in RStudio to determine the density of cell towers in proximity to schools & hospitals.",
@@ -153,6 +191,7 @@ export const experiences: Experience[] = [
       "Company: Blendoor evaluates companies based on factors such as equity metrics, diversity, recruiting practices, leadership, among others to generate a 'BlendScore' for each company.",
     timeline: "Jan. 2020 - May 2020",
     title: "Software Developer",
+    category: Category.Software,
     bullets: [
       "BlendScore Automation Project: In a team of 5 engineers on the M.E.T Bulletin Board (Technical Consulting Organization), our goal was to automate the BlendScore calculation through a web interface where admin users can edit certain qualitative and quantitative variables related to a company in order to produce an updated BlendScore. After updating Blendoor's score calculation algorithms, we built a RESTful API with python and Flask to run backend python scripts that would execute SQL queries to communicate with Blendoor's internal database and used AngularJS, TypeScript, and HTML/CSS to build the frontend UI",
     ],
@@ -164,29 +203,12 @@ export const experiences: Experience[] = [
       "LoopChat is a Berkeley based fintech focused on convenience, inclusion and efficiency in the financial system.",
     timeline: "Aug. 2019 - Feb. 2020",
     title: "Product Management Intern",
+    category: Category.Product,
     bullets: [
       "Assisted creation of the architecture for various mini-apps available on LoopChat such as club and class database.",
       "Streamlined business strategies focused on increasing user downloads and retention through gamifying the platform.",
       "Implemented procedures that increased downloads by 232% and marketed to various departments at UC Berkeley.",
       "Proposed simplification plan of UI/UX of the app and presented to internal and external stakeholders.",
-    ],
-  },
-  {
-    name: "Trashbots",
-    pic: require("./images/trashbots.png"),
-    description:
-      "Trashbots is a technology startup that develops low-cost science and engineering kits with a structured curriculum that enables students to develop problem-solving skills and enhance their creativity by building robots that utilize materials from the world around them.",
-    timeline: "June 2018 - Feb. 2020",
-    title: "Curriculum Designer",
-    bullets: [
-      "Focused on building future curriculums which are accessible on the website and available for children in other countries",
-      "Devised a 3D-printing CAD curriculum that enables students to design and print 3D-printed objects using Fusion 360.",
-      "Generated ideas and future applications for computer aided design curriculum kit.",
-      "Determine unique activities and combined the engineering process and programming skills for a teaching curriculum.",
-      "Analyzed competitor’s data set and conducted market research to study competing products such as Lego Mindset and Wonder Workshop Dash & Dot Robots.",
-      "Filmed videos to visualize the engineering activities to determine use cases for the Trashbots educational kit.",
-      "Assembled documents that detailed Objectives of the lesson, Activities that helped learn the lesson, associated vocabulary, and a closing discussion question.",
-      "Designed and created various new pieces for the Trashbots kit; Created large gears and hexagon blocks which fit into the Phoenix Side plate.",
     ],
   },
   {
@@ -196,6 +218,7 @@ export const experiences: Experience[] = [
       "Our Lunch Lady allows students to purchase food from nearby restaurants and boosts the local economy while providing better food options to students in schools",
     timeline: "Aug, 2017 - Aug, 2018",
     title: "Co-Founder",
+    category: Category.VentureCapital,
     bullets: [
       "Scheduled meetings at Capitol factory to develop a web-app and pitched to investors and mentors.",
       "Developed financial models based different market penetration predictions and COGS and developed a marketing plan.",
@@ -208,40 +231,12 @@ export const experiences: Experience[] = [
     pic: require("./images/bvc.png"),
     description:
       "BVS is an undergraduate community empowered to learn and work with leading venture capitalists and entrepreneurs.",
-    timeline: "Jan. 2020 - Current",
+    timeline: "Jan. 2020 - Dec 2022",
     title: "Venture Capital Intern",
+    category: Category.VentureCapital,
     bullets: [
       "Underwent six-week venture capital curriculum with an emphasis on due diligence, and investment summary.",
       "Collaborating with local venture capital firms/industry leaders to organize events/speaker series throughout campus",
-    ],
-  },
-  {
-    name: "UT SAE Longhorn Racing Club",
-    pic: require("./images/ut.jpg"),
-    description:
-      "UT SAE Longhorn Racing Club is an inter-collegiate racing club that designs and builds race-cars.",
-    timeline: "Aug. 2018 - May. 2019",
-    title: "Member of the frame subteam",
-    bullets: [
-      "Worked with current UT students and Professor Mathews to develop the frame for the race-car.",
-      "Focused on improving the chassis and the body of the race car via design simulations and SolidWorks models.",
-      "Modified the chassis of the car by fixing a loose steering column and creating the brake box.",
-      "Designed a new plate pattern for the foot pedals that allows for installation in different configurations to suit the driver’s preferences.",
-    ],
-  },
-  {
-    name: "NASA High School Aerospace Scholars",
-    pic: require("./images/nasa.jpg"),
-    description:
-      "High School Aerospace Scholars (HAS) is a unique NASA experience that begins with a 16-week online interactive course on NASA activities related to space exploration, Earth science, technology, mathematics and aeronautics.",
-    timeline: "Dec. 2017 - Mar. 2018",
-    title: "Scholar",
-    bullets: [
-      "Selected and nominated to represent Westlake High School by Texas legislator during the fall.",
-      "Participated in an interactive course and NASA activities related to space exploration, earth science, technology and aeronautics.",
-      "Completed design challenges such as 3D drawing, video creation, and interactive poster design all pertaining the life in space.",
-      "Participated in virtual chats with NASA engineers and scientists to learn about different factors that contributed to pursuing a career in engineering.",
-      "Selected to participate on the onsite engineering program and conference in Houston, Texas.",
     ],
   },
 ];
