@@ -9,7 +9,7 @@ const ExperienceList: React.FC = () => {
     <div className="experience-list">
       {categories.map((category) => (
         <div key={category}>
-          <h2>{category} Experience</h2>
+          <h3>{category} Experience</h3>
           {experiences
             .filter((experience) => experience.category === category)
             .map((experience, index) => (
