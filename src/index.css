@@ -1,3 +1,34 @@
+/* src/styles/fonts.css or your main stylesheet */
+
+@font-face {
+    font-family: 'Commit Mono';
+    src: url('./fonts/CommitMonoV142-400Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commit Mono';
+    src: url('./fonts/CommitMonoV142-400Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Commit Mono';
+    src: url('./fonts/CommitMonoV142-700Regular.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Commit Mono';
+    src: url('./fonts/CommitMonoV142-700Italic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 .profile-container {
     /* border: 2px solid black;
     */
@@ -10,7 +41,7 @@
 }
 body {
     background-color: #121621;
-    font-family: monospace;
+    font-family: 'Commit Mono';
     color: #c0c5ce;
 }
 
@@ -29,7 +60,7 @@ body {
     width: auto;
     display: inline-block;
     color: #fff;
-    font-family: monospace;
+    font-family: 'Commit Mono';
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 0.15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -80,8 +111,7 @@ body {
     */
     text-align: center;
     color: #fff;
-    font-family: monospace;
-}
+    font-family: 'Commit Mono';}
 
 .bio-text-container {
     /*
@@ -96,7 +126,7 @@ body {
     font-size: 20px;
     text-align: center;
     color: solid black;
-    font-family: monospace;
+    font-family: 'Commit Mono';    
     text-emphasis-color: solid black;
 }
 
