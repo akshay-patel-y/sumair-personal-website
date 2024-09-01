@@ -1,18 +1,28 @@
 import React from "react";
+import headshot from "../images/Akshay_Patel.jpg"; // Adjust the path based on your directory structure
 
 interface ProfileProps {
   name: string;
-  pic: string;
   bio: string;
   tag: string;
   title: string;
 }
 
-const Profile: React.FC<ProfileProps> = ({ name, pic, bio, tag, title }) => {
+const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
   return (
     <div>
+      <img
+        src={headshot}
+        alt="Akshay Patel"
+        style={{
+          width: "100px",
+          borderRadius: "10%",
+        }}
+      />
       <h1 className="typewriter">
-        <h1>hi! i'm {name}.</h1>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <h1>hi! i'm {name}.</h1>
+        </div>
       </h1>
 
       {/** This is my Profile Section */}
