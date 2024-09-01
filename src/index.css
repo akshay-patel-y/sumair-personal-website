@@ -1,303 +1,192 @@
 /* src/styles/fonts.css or your main stylesheet */
 
 @font-face {
-    font-family: 'Commit Mono';
-    src: url('./fonts/CommitMonoV142-400Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Commit Mono";
+  src: url("./fonts/CommitMonoV142-400Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Commit Mono';
-    src: url('./fonts/CommitMonoV142-400Italic.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
+  font-family: "Commit Mono";
+  src: url("./fonts/CommitMonoV142-400Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Commit Mono';
-    src: url('./fonts/CommitMonoV142-700Regular.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Commit Mono";
+  src: url("./fonts/CommitMonoV142-700Regular.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Commit Mono';
-    src: url('./fonts/CommitMonoV142-700Italic.otf') format('opentype');
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Commit Mono";
+  src: url("./fonts/CommitMonoV142-700Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
 }
 
-
-.profile-container {
-    /* border: 2px solid black;
-    */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    font-size: 20px;
-
-}
-body {
-    background-color: #121621;
-    font-family: 'Commit Mono';
-    color: #c0c5ce;
-}
-
-.main {
-    overflow: hidden;
-    text-align: center;
-    z-index: 1;
-    width: 100%;
-}
-.content {
-    width: 80%;
-    margin: 0 auto;
-}
 /* DEMO-SPECIFIC STYLES */
 .typewriter {
-    width: auto;
-    display: inline-block;
-    color: #fff;
-    font-family: 'Commit Mono';
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 0.15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 0.15em; /* Adjust as needed */
-    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  width: auto;
+  display: inline-block;
+  font-family: "Commit Mono";
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-    from {
-        max-width: 0;
-    }
-    to {
-        max-width: 100%;
-    }
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: #4183c4;
-
-    }
-}
-
-.profile {
-    border: 2px solid black;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.bio-container {
-    display: flex;
-    border: 2px solid black;
-}
-
-.bio {
-    /*
-    border: 2px solid yellow;
-    */
-    text-align: center;
-    color: #fff;
-    font-family: 'Commit Mono';}
-
-.bio-text-container {
-    /*
-    border: 2px solid slateblue;
-    */
-}
-
-.exp {
-    /*
-    border: 2px solid yellow;
-    */
-    font-size: 20px;
-    text-align: center;
-    color: solid black;
-    font-family: 'Commit Mono';    
-    text-emphasis-color: solid black;
-}
-
-.experience-section {
-    margin: 12px 0;
-    border: tan 2px dashed;
-}
-
-.project-section {
-    margin: 12px 0;
-    border: lemonchiffon 2px dashed;
-}
-
-
-
-.exp-profile {
-    width: 100%;
-    border: 2px solid red;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.exp-text-container {
-    /*
-    border: 2px solid red;
-    */
-    padding-top: 50px;
-  padding-right: 225px;
-  padding-bottom: 50px;
-  padding-left: 225px;
-  color: black;
-}
-
-.title {
-    font-style: italic;
-    color: black;
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #4183c4;
+  }
 }
 
 .modsize {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .grid-container {
-    margin-top: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
 
 .grid-item {
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 
 .experience-images {
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    cursor: pointer;
-
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .experience-images:hover {
-    opacity: .5;
+  opacity: 0.5;
 }
-
-
-.test {
-    text-align: center;
-    color: white;
-    
-}
-
-.bio-action {
-    align-items: center;
-    margin-top: auto;
-}
-
 
 .button {
-    margin: auto;
-    background-color: transparent;
-    padding: 16px 32px;
-    font-size: 1.3rem;
-    align-self: center;
-    display: inline-flex;
-    font-weight: 700;
-    border: 2px solid;
-    outline: none;
-    border-radius: 16px;
-    -webkit-transition: all .2s ease;
-    transition: all .2s ease;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
+  margin: auto;
+  background-color: transparent;
+  padding: 16px 32px;
+  font-size: 1.3rem;
+  align-self: center;
+  display: inline-flex;
+  font-weight: 700;
+  border: 2px solid;
+  outline: none;
+  border-radius: 16px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
-
 .button:hover {
-    background-color: rgb(25, 31, 51);
-    color: white;
-    border: 2px solid white;
+  background-color: rgb(25, 31, 51);
+  color: white;
+  border: 2px solid white;
 }
 
-ul {
-    font-size: 18px;
-    list-style: square;
+/* Styles for the icons in the Profile component */
+
+.profile-container .fa {
+  color: #000000; /* Black color for the icons */
+  font-size: 24px; /* Smaller size for the icons */
+  margin: 0 10px; /* Spacing between the icons */
+  text-decoration: none; /* Remove underline from the links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.modal-container {
+.profile-container .fa:hover {
+  color: #ffffff; /* White color on hover */
+}
+
+
+.app-container {
   display: flex;
-  justify-content: center;
-  align-content: center;
   flex-direction: column;
-
 }
 
 
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center the nav items horizontally */
+  padding: 0;
+  margin: 0;
+}
 
+.top-nav li {
+  margin: 0 1.5rem; /* Space between nav items */
+  cursor: pointer;
+}
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
+.top-nav a {
+  color: #2e2e2e; /* Dark gray text color for the links */
+  text-decoration: none;
+  font-family: "Commit Mono", monospace; /* Ensure the font is consistent */
+  font-weight: bold; /* Match the font weight to the rest of your app */
+}
 
-  
- 
+.top-nav a:hover {
+  text-decoration: underline;
+}
 
-  .fa-github {
-    color: white;
-    size: 10px;
-    margin-left: -60px;
-  }
-  
-  .fa-linkedin {
-    color: white;
-    margin: auto;
-    margin-left: 30px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c8c8c8; /* Light gray background */
+  font-family: "Commit Mono", monospace; /* Use the Commit Mono font */
+  color: #2e2e2e; /* Dark gray text color */
+}
 
+.content {
+  padding: 2rem;
+  max-width: 1200px;
+  width: 100%;
+}
 
-  }
-  
-  
-  .fa-envelope {
-    color: white;
-    margin: auto;
-    margin-left: 30px;
+.profile-section,
+.experience-section {
+  margin-bottom: 2rem;
+}
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
 
-  }
-  
-  
- 
-  
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-
-  
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
