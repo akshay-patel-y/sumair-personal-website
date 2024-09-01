@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       ></link>
       <Profile
         name="akshay"
-        bio="i'm currently a software engineer at typeface, where i work on building an ai-powered marketing agent for enterprise teams. in addition to my technical role, i'm investing as a scout at pear vc and pantera capital, where i help identify and support promising startups in the ai and blockchain spaces. in my free time, i enjoy exploring the bay area, trying out new tech gadgets, and watching fc barcelona."
+        bio="i'm currently a software engineer at typeface ai, where i work on building an ai-powered marketing agent for enterprise teams. in addition to my technical role, i'm investing as a scout at pear vc and pantera capital, where i help identify and support promising startups in the ai and blockchain spaces. in my free time, i enjoy exploring the bay area, trying out new tech gadgets, and watching fc barcelona."
         tag="Resume"
         title="University of California, Berkeley M.E.T 22'"
       />
