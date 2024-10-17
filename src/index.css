@@ -37,23 +37,15 @@ body {
 }
 
 /* Typewriter Effect */
-.typewriter {
+.typewriter h1 {
   width: auto;
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
-  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
-}
-
-@keyframes typing {
-  from {
-    max-width: 0;
-  }
-  to {
-    max-width: 100%;
-  }
+  border-right: 0.15em solid #333;
+  animation: blink-caret 0.75s step-end infinite;
 }
 
 @keyframes blink-caret {
