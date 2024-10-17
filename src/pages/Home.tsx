@@ -1,6 +1,7 @@
 // src/pages/Home.tsx
 import React from "react";
 import Profile from "../components/Profile";
+import ExperienceList from "../components/ExperienceList";
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
         tag="Resume"
         title="University of California, Berkeley M.E.T 22'"
       />
+      <ExperienceList />
     </section>
   );
 };

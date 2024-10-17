@@ -10,8 +10,7 @@ interface ProfileProps {
 
 const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
   return (
-    <div
-    >
+    <div className="profile-wrapper">
       {/* <img
         src={headshot}
         alt="Sumair Ahuja"
@@ -30,18 +29,9 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
       {/** This is my Profile Section */}
       <div className="profile-container">
         <p className="bio">{bio}</p>
-        <a
-          href=""
-          className="fa fa-github fa-3x"
-        ></a>
-        <a
-          href=""
-          className="fa fa-linkedin fa-3x"
-        ></a>
-        <a
-          href=""
-          className="fa fa-envelope fa-3x"
-        ></a>
+        <a href="" className="fa fa-github fa-3x"></a>
+        <a href="" className="fa fa-linkedin fa-3x"></a>
+        <a href="" className="fa fa-envelope fa-3x"></a>
       </div>
     </div>
   );
