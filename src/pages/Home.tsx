@@ -11,8 +11,8 @@ const Home: React.FC = () => {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
       <Profile
-        name="sumair"
-        bio="i'm currently a software engineer at typeface ai, where i work on building an ai-powered marketing agent for enterprise teams. in addition to my technical role, i'm investing as a scout at pear vc and pantera capital, where i help identify and support promising startups in the ai and blockchain spaces. in my free time, i enjoy exploring the bay area, trying out new tech gadgets, and watching fc barcelona."
+        name="Sumair"
+        bio="I'm currently a student at The Shri Ram School, pursuing the International Baccalaureate while leading several initiatives in leadership and education equity. I head the student council, where I manage a 28-member team, organize school events, and mentor younger students. Alongside my school responsibilities, I'm deeply involved in initiatives such as Up SportsHub, where I promote sports culture through upcycling, and Thrive Today, where I help cultivate leadership and communication skills for students from economically weaker sections. In my free time, I enjoy playing basketball, exploring new STEM projects, and volunteering to teach life skills through sports."
         tag="Resume"
         title="University of California, Berkeley M.E.T 22'"
       />

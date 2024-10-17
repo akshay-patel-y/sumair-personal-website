@@ -33,7 +33,7 @@ body {
   padding: 0;
   background-color: #f5f5f5; /* Soft light gray background */
   font-family: "Commit Mono", monospace; /* Use Commit Mono font */
-  color: #333; /* Darker text for better contrast */
+  color: #00356B; /* Yale Blue for text */
 }
 
 /* Typewriter Effect */
@@ -62,7 +62,7 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: #4183c4;
+    border-color: #00356B;
   }
 }
 
@@ -96,13 +96,14 @@ body {
 }
 
 .top-nav a {
-  color: #2e2e2e;
+  color: #00356B;
   text-decoration: none;
   font-weight: bold;
 }
 
 .top-nav a:hover {
   text-decoration: underline;
+  color: #637381; /* Yale Gray */
 }
 
 /* Content and Sections */
@@ -122,6 +123,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   padding: 1rem;
+  color: #00356B; /* Yale Blue */
 }
 
 .grid-item {
@@ -152,7 +154,7 @@ body {
 
 /* Profile Icons */
 .profile-container .fa {
-  color: #000000;
+  color: #00356B; /* Yale Blue */
   font-size: 24px;
   margin: 0 10px;
   text-decoration: none;
@@ -160,7 +162,7 @@ body {
 }
 
 .profile-container .fa:hover {
-  color: #ffffff;
+  color: #637381;
 }
 
 /* Experience List Styles */
@@ -228,6 +230,7 @@ body {
   padding: 1rem;
   background-color: #fafafa;
   border-top: 1px solid #e0e0e0;
+  color: #00356B; /* Yale Blue for text */
 }
 
 .accordion-details p {
@@ -240,4 +243,39 @@ body {
 
 .accordion-content ul li {
   margin-bottom: 0.5rem;
+}
+
+
+/* Category Accordion Styles */
+.category-accordion-item {
+  margin-bottom: 20px;
+}
+
+.category-accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #00356B; /* Yale Blue */
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: unset;
+}
+
+.category-accordion-header:hover {
+  background-color: #005BB5; /* Lighter Yale Blue on hover */
+}
+
+.category-accordion-icon {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.category-accordion-content {
+  padding: 10px 20px;
+  background-color: #f5f5f5; /* Light gray for content area */
+  border-radius: 8px;
+  margin-top: 10px;
 }
