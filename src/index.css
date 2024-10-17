@@ -54,7 +54,7 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: #4183c4;
+    border-color: #333;
   }
 }
 
@@ -245,7 +245,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #fafafa; /* Yale Blue */
+  background-color: #fafafa;
   color: #333;
   cursor: pointer;
   border-radius: 8px;
@@ -254,7 +254,7 @@ body {
 }
 
 .category-accordion-header:hover {
-  background-color: #e0e0e0; /* Lighter Yale Blue on hover */
+  background-color: #e0e0e0;
 }
 
 .category-accordion-icon {
