@@ -9,30 +9,31 @@ const ResumeButton: React.FC = () => {
         rel="noopener noreferrer"
         style={{
           display: "inline-block",
-          backgroundColor: "#00356B", // Yale Blue
-          color: "#fff",
+          backgroundColor: "#333",
+          color: "#fafafa",
           padding: "10px 20px",
           borderRadius: "8px",
           textDecoration: "none",
           fontWeight: "bold",
           fontFamily: "Commit Mono, monospace",
-          boxShadow: "0 8px 20px rgba(0, 0, 0, 0.2)",
           transition: "all 0.3s ease",
           position: "relative",
           overflow: "hidden",
         }}
         onMouseEnter={(e) => {
           const button = e.currentTarget;
-          button.style.backgroundColor = "#005BB5"; // Lighter Yale Blue on hover
+          button.style.backgroundColor = "#fafafa";
+          button.style.color = "#333";
           button.style.boxShadow = "0 12px 24px rgba(0, 0, 0, 0.3)";
         }}
         onMouseLeave={(e) => {
           const button = e.currentTarget;
-          button.style.backgroundColor = "#00356B"; // Reset to original Yale Blue
+          button.style.backgroundColor = "#333";
+          button.style.color = "#fafafa";
           button.style.boxShadow = "0 8px 20px rgba(0, 0, 0, 0.2)";
         }}
       >
-        View My Resume
+        Resume
       </a>
     </div>
   );

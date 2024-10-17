@@ -43,12 +43,10 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
           <a
             href="https://www.linkedin.com/in/sumair-ahuja-610517257/?originalSubdomain=in"
             className="fa fa-linkedin fa-3x"
-            style={{ color: "#00356B" }} // Optional: Set a color for icons (Yale Blue here)
           ></a>
           <a
             href="mailto:someone@example.com"
             className="fa fa-envelope fa-3x"
-            style={{ color: "#00356B" }} // Optional: Set a color for icons (Yale Blue here)
           ></a>
         </div>
       </div>
