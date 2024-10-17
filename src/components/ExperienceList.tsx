@@ -4,9 +4,11 @@ import ExperienceAccordion from "./ExperienceAccordion";
 
 const ExperienceList: React.FC = () => {
   const categories = [
-    Category.Software,
     Category.VentureCapital,
-    Category.Product,
+    Category.Leadership,
+    Category.Education,
+    Category.Economics,
+    Category.Research,
   ];
 
   // State to manage open/close state of categories

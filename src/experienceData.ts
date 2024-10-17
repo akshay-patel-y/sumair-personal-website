@@ -2,6 +2,10 @@ export enum Category {
   Software = "Software Engineering",
   Product = "Product",
   VentureCapital = "Venture Capital",
+  Leadership = "Leadership",
+  Education = "Education Equity & Policy Initiatives",
+  Economics = "Behavioral and Financial Ecnomics Explorations",
+  Research = "Research"
 }
 export interface Experience {
   name: string;
