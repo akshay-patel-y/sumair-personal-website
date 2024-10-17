@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import headshot from "../images/Akshay_Patel.jpg"; // Adjust the path based on your directory structure
+import headshot from "../images/Sumair.png"; // Adjust the path based on your directory structure
 import ResumeButton from "./ResumeButton";
 
 interface ProfileProps {

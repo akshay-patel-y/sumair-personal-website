@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.54785448.css",
-    "main.js": "/static/js/main.d2f3b291.js",
+    "main.css": "/static/css/main.afa333ea.css",
+    "main.js": "/static/js/main.d3fd5d6d.js",
     "static/media/Bonfire.png": "/static/media/Bonfire.50aac3dc3052db621003.png",
-    "static/media/Akshay_Patel.jpg": "/static/media/Akshay_Patel.bbd3cffb632649243e2c.jpg",
     "static/media/CommitMonoV142-400Italic.otf": "/static/media/CommitMonoV142-400Italic.43761c16358ec80d10e8.otf",
     "static/media/CommitMonoV142-700Italic.otf": "/static/media/CommitMonoV142-700Italic.4180056f2a7d1c65a96a.otf",
     "static/media/CommitMonoV142-700Regular.otf": "/static/media/CommitMonoV142-700Regular.b1beda764e6a8278a150.otf",
@@ -19,11 +18,11 @@
     "static/media/blendoor.PNG": "/static/media/blendoor.b727bf10ad8738224849.PNG",
     "static/media/Avance.jfif": "/static/media/Avance.3659b9d755e818e05cbb.jfif",
     "index.html": "/index.html",
-    "main.54785448.css.map": "/static/css/main.54785448.css.map",
-    "main.d2f3b291.js.map": "/static/js/main.d2f3b291.js.map"
+    "main.afa333ea.css.map": "/static/css/main.afa333ea.css.map",
+    "main.d3fd5d6d.js.map": "/static/js/main.d3fd5d6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.54785448.css",
-    "static/js/main.d2f3b291.js"
+    "static/css/main.afa333ea.css",
+    "static/js/main.d3fd5d6d.js"
   ]
 }
