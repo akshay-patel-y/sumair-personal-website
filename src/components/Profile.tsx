@@ -14,7 +14,7 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
     >
       <img
         src={headshot}
-        alt="Akshay Patel"
+        alt="Sumair Ahuja"
         style={{
           width: "100px",
           borderRadius: "10%",
