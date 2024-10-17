@@ -56,7 +56,7 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
       /> */}
       <h1 className="typewriter">
         <div style={{ display: "flex", alignItems: "center", height: "50px" }}>
-          <h1>{displayedText}</h1>
+          {displayedText}
         </div>
       </h1>
 
