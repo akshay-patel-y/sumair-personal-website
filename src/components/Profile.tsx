@@ -12,7 +12,7 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
   return (
     <div
     >
-      <img
+      {/* <img
         src={headshot}
         alt="Sumair Ahuja"
         style={{
@@ -20,7 +20,7 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
           borderRadius: "10%",
           marginRight: "10px",
         }}
-      />
+      /> */}
       <h1 className="typewriter">
         <div style={{ display: "flex", alignItems: "center" }}>
           <h1>hi! i'm {name}.</h1>
