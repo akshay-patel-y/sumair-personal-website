@@ -31,15 +31,15 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
       <div className="profile-container">
         <p className="bio">{bio}</p>
         <a
-          href="https://github.com/akshay-patel-y"
+          href=""
           className="fa fa-github fa-3x"
         ></a>
         <a
-          href="https://www.linkedin.com/in/akshay-patel-/"
+          href=""
           className="fa fa-linkedin fa-3x"
         ></a>
         <a
-          href="mailto:akshaypatel.y@gmail.com"
+          href=""
           className="fa fa-envelope fa-3x"
         ></a>
       </div>
