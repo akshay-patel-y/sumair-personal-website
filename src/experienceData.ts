@@ -94,7 +94,7 @@ export const experiences: Experience[] = [
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
-      "Traditional economic theory suggests that individuals make rational decisions to maximize benefits, but behavioral economics argues that emotions and biases can influence choices. This research focuses on how athletes, under time constraints, rely more on intuitive, fast-thinking systems (System 1) rather than slower, rational thought processes (System 2), leading to cognitive biases such as the availability heuristic, anchoring bias, sunk cost fallacy, and framing bias. Through primary research involving amateur athletes, the study identifies these biases in action and proposes strategies for mitigating their effects to enhance athletic performance.",
+      "In my research, I explore how athletes, under time constraints, often rely on fast, intuitive thinking (System 1) rather than slower, rational thought processes (System 2), leading to cognitive biases. While traditional economic theory suggests that people make rational decisions to maximize benefits, my study highlights how emotions and biases—such as the availability heuristic, anchoring bias, sunk cost fallacy, and framing bias—can influence athletic decisions. Through primary research with amateur athletes, I identify these biases in action and propose strategies to mitigate their effects, aiming to enhance performance in high-pressure situations.",
     ],
     images: [],
     buttons: [
