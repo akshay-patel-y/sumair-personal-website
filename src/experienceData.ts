@@ -52,10 +52,10 @@ const upsportImages: Image[] = [
 
 export const experiences: Experience[] = [
   {
-    name: "Thrive",
+    name: "Thrive Today",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
-    title: "Cofounder",
+    timeline: "Jan 2024 – present",
+    title: "Founder & Lead Organizer",
     category: Category.Education,
     bullets: [
       "Motivated by the gaps I noticed in India’s Right to Education Act, I founded Thrive Today to focus on an often-overlooked dimension of success—soft skills. Through weekly sessions with forty 6th and 7th graders from marginalized backgrounds at my school, I work on building trust through role-playing games, musical conversations, and sharing personal vulnerabilities. Over time, these students have gained confidence in their speech and become more open about their challenges, helping them bridge the socioeconomic divide. As I continue this work, I’ve passed leadership on to younger students to ensure this supportive environment continues to grow and impact more lives.",
@@ -64,30 +64,34 @@ export const experiences: Experience[] = [
     buttons: [],
   },
   {
-    name: "TSRR",
+    name: "TSRS EWS Report",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
-    title: "Cofounder",
+    timeline: "Sept 2024 – present",
+    title: "Researcher",
     category: Category.Education,
-    bullets: ["Fill"],
+    bullets: [
+      "I conducted research using primary data from surveys to explore the challenges faced by EWS (Economically Weaker Section) students in private schools. Based on the findings, I suggested initiatives to enhance inclusivity and academic success, offering a blueprint for schools in the region.",
+    ],
     images: [],
     buttons: [],
   },
   {
-    name: "CII",
+    name: "Confederation of Indian Industry Education Panel (CII)",
     pic: require("./images/placeholder.png"),
-    timeline: "Sept. 2023",
-    title: "Cofounder",
+    timeline: "July. 2024",
+    title: "Research Associate",
     category: Category.Education,
-    bullets: ["Fill"],
+    bullets: [
+      "As a Research Associate for the Confederation of Indian Industry Education Panel (CII) in New Delhi, I serve as one of four student representatives providing recommendations on public education in Delhi. I am currently working on a white paper focused on social and emotional well-being, which will be submitted to the Delhi State Government.",
+    ],
     images: [],
     buttons: [],
   },
   {
-    name: "Research paper",
+    name: "Cognitive Biases and Athlete’s Decision-Making Abilities",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
-    title: "Cofounder",
+    timeline: "May – Jun 2024",
+    title: "Independent Research",
     category: Category.Economics,
     bullets: [
       "Traditional economic theory suggests that individuals make rational decisions to maximize benefits, but behavioral economics argues that emotions and biases can influence choices. This research focuses on how athletes, under time constraints, rely more on intuitive, fast-thinking systems (System 1) rather than slower, rational thought processes (System 2), leading to cognitive biases such as the availability heuristic, anchoring bias, sunk cost fallacy, and framing bias. Through primary research involving amateur athletes, the study identifies these biases in action and proposes strategies for mitigating their effects to enhance athletic performance.",
@@ -98,15 +102,21 @@ export const experiences: Experience[] = [
         src: require("./images/paper.pdf"),
         label: "Paper Link",
       },
+      {
+        src: "https://www.ijfmr.com/research-paper.php?id=28202",
+        label: "Journal Link",
+      },
     ],
   },
   {
-    name: "GPI Paper",
+    name: "Is the GPI a more comprehensive measure of economic progress than traditional economic indicators",
     pic: require("./images/placeholder.png"),
     timeline: "Current",
-    title: "Cofounder",
+    title: "Independent Research",
     category: Category.Economics,
-    bullets: ["Fill"],
+    bullets: [
+      "I conducted independent research to determine whether the Genuine Progress Indicator (GPI) offers a more comprehensive measure of economic progress compared to traditional indicators like GDP, HDI, GNI, government budgets, and money supply. By evaluating the limitations of these conventional metrics in accounting for environmental sustainability, social well-being, and income inequality, I explored how GPI can address these gaps. My study demonstrates that GPI provides a more accurate reflection of true societal progress, highlighting its potential to better capture the multifaceted aspects of economic development.",
+    ],
     images: [],
     buttons: [],
   },
@@ -114,9 +124,11 @@ export const experiences: Experience[] = [
     name: "John Locke Brief",
     pic: require("./images/placeholder.png"),
     timeline: "Sept. 2023",
-    title: "Cofounder",
+    title: "Independent Research",
     category: Category.Economics,
-    bullets: ["Fill"],
+    bullets: [
+      "In my paper, What Would Happen if We Banned Billionaires?, I explore both sides of the debate surrounding a potential ban on billionaires. On one hand, banning them could lead to wealth redistribution, lower poverty, and reduced political and environmental harm. On the other hand, it may lead to economic instability, increased unemployment, and a decline in innovation. While banning billionaires might seem like a solution to inequality, I argue that the negatives—such as hindering entrepreneurship and economic growth—outweigh the benefits, and a more balanced approach is necessary. ",
+    ],
     images: [],
     buttons: [
       {
@@ -150,9 +162,11 @@ export const experiences: Experience[] = [
     name: "NSLC",
     pic: require("./images/placeholder.png"),
     timeline: "Current",
-    title: "Cofounder",
+    title: "Participant",
     category: Category.Building,
-    bullets: ["Fill"],
+    bullets: [
+      "During this project, I gained hands-on experience in soldering, CAD design, and windmill construction, while also developing a productivity-boosting website tailored to meet diverse learning needs. Additionally, I contributed to a civil engineering initiative focused on sustainable urban planning, applying practical skills to address real-world challenges in creating more eco-friendly and efficient urban environments.",
+    ],
     images: [],
     buttons: [
       {
@@ -179,12 +193,14 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "Upsporthub",
+    name: "Up SportsHub",
     pic: require("./images/placeholder.png"),
     timeline: "Current",
     title: "Cofounder",
     category: Category.Interests,
-    bullets: ["Fill"],
+    bullets: [
+      "I launched Up SportsHub in January 2024 with the goal of upcycling athletic equipment and promoting sports culture across various social segments. Through this initiative, I collected over 1000 items, including board games, racquets, skates, and other athletic gear. I also raised INR 1.3 lakhs, which was used to fulfill the wish lists of NGOs supporting marginalized communities in the Delhi-NCR region.",
+    ],
     images: upsportImages,
     buttons: [],
   },
@@ -194,7 +210,9 @@ export const experiences: Experience[] = [
     timeline: "Current",
     title: "Cofounder",
     category: Category.Interests,
-    bullets: ["Fill"],
+    bullets: [
+      "As the Lead Student Volunteer for More Than Play, I work to teach life skills through sports to children from less economically stable backgrounds. By using team games, I've helped improve their conflict resolution, confidence, and leadership skills. I’ve also recruited and trained new volunteers, shared best practices on leadership development through sports, and organized a cricket tournament where coaches conducted training sessions for the children.",
+    ],
     images: [],
     buttons: [],
   },
