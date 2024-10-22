@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import headshot from "../images/Sumair.png"; // Adjust the path based on your directory structure
-import ResumeButton from "./ResumeButton";
+import WebsiteButton from "./WebsiteButton";
 
 interface ProfileProps {
   name: string;
@@ -72,7 +72,10 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
             marginBottom: "20px",
           }}
         >
-          <ResumeButton />
+          <WebsiteButton
+            src="https://docs.google.com/document/d/1Jn0g1x-R7oWsRrjMyZ6ZrD9DcxCwQLLQ/edit"
+            label="Resume"
+          />
           <a
             href="https://www.linkedin.com/in/sumair-ahuja-610517257/?originalSubdomain=in"
             className="fa fa-linkedin fa-3x"

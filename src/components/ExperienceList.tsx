@@ -4,11 +4,10 @@ import ExperienceAccordion from "./ExperienceAccordion";
 
 const ExperienceList: React.FC = () => {
   const categories = [
-    Category.VentureCapital,
-    Category.Leadership,
     Category.Education,
     Category.Economics,
-    Category.Research,
+    Category.Building,
+    Category.Interests,
   ];
 
   // State to manage open/close state of categories
@@ -29,7 +28,7 @@ const ExperienceList: React.FC = () => {
             }`}
             onClick={() => toggleCategory(category)}
           >
-            <h3 style={{ marginTop: "12px" }}>{category} Experience</h3>
+            <h3 style={{ marginTop: "12px" }}>{category}</h3>
             <span className="category-accordion-icon">
               {openCategory === category ? "-" : "+"}
             </span>

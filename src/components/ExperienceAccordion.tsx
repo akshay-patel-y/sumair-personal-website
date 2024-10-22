@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Experience } from "../experienceData";
-
+import ImageCarousel from "./ImageCarousel";
+import ButtonRow from "./ButtonRow";
 
 interface ExperienceAccordionProps {
   experience: Experience;
@@ -32,16 +33,20 @@ const ExperienceAccordion: React.FC<ExperienceAccordionProps> = ({
         <span className="accordion-icon">{isOpen ? "-" : "+"}</span>
       </div>
       {isOpen && (
-        <div className="accordion-content">
-          <div className="accordion-details">
-            {experience.description && <p>{experience.description}</p>}
-            <ul>
-              {experience.bullets.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+        <>
+          <div className="accordion-content">
+            <div className="accordion-details">
+              {experience.description && <p>{experience.description}</p>}
+              <ul>
+                {experience.bullets.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
           </div>
-        </div>
+          <ImageCarousel images={experience.images} />
+          <ButtonRow buttons={experience.buttons}/>
+        </>
       )}
     </div>
   );

@@ -1,10 +1,15 @@
 import React from "react";
 
-const ResumeButton: React.FC = () => {
+interface WebsiteButtonProps {
+  src: string;
+  label: string;
+}
+
+const WebsiteButton: React.FC<WebsiteButtonProps> = ({ src, label }) => {
   return (
     <div style={{ textAlign: "center" }}>
       <a
-        href="https://docs.google.com/document/d/1Jn0g1x-R7oWsRrjMyZ6ZrD9DcxCwQLLQ/edit"
+        href={src}
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -33,10 +38,10 @@ const ResumeButton: React.FC = () => {
           button.style.boxShadow = "0 8px 20px rgba(0, 0, 0, 0.2)";
         }}
       >
-        Resume
+        {label}
       </a>
     </div>
   );
 };
 
-export default ResumeButton;
+export default WebsiteButton;
