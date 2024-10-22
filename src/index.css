@@ -245,6 +245,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  background-color: #fafafa;
   color: #333;
   cursor: pointer;
   border-radius: 8px;
@@ -263,7 +264,6 @@ body {
 
 .category-accordion-content {
   padding: 10px 20px;
-  background-color: #fafafa; /* Light gray for content area */
   border-radius: 8px;
   margin-top: 10px;
 }
