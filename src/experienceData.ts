@@ -195,7 +195,7 @@ export const experiences: Experience[] = [
   {
     name: "Up SportsHub",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
+    timeline: "Jan 2024 – present",
     title: "Cofounder",
     category: Category.Interests,
     bullets: [
