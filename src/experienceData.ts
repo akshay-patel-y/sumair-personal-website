@@ -141,7 +141,7 @@ export const experiences: Experience[] = [
     name: "Makers Asylum",
     pic: require("./images/placeholder.png"),
     timeline: "Mar – Jun 2024",
-    title: "Cofounder",
+    title: "Participant & Innovator",
     category: Category.Building,
     bullets: [
       "The GuitarGlove project was created to make learning guitar chords easier and more intuitive for beginners. The smart glove has six LEDs on each finger, representing the guitar's strings, and lights up to indicate the correct finger placement. It also features sensors that detect the hand's position and only activate the LEDs when the hand is in the right position to play the chord. The glove connects to a guitar learning website, offering a fun and engaging way for users to learn chords without the need for expensive lessons or difficult music theory.",
@@ -196,7 +196,7 @@ export const experiences: Experience[] = [
     name: "Up SportsHub",
     pic: require("./images/placeholder.png"),
     timeline: "Jan 2024 – present",
-    title: "Cofounder",
+    title: "Founder",
     category: Category.Interests,
     bullets: [
       "I launched Up SportsHub in January 2024 with the goal of upcycling athletic equipment and promoting sports culture across various social segments. Through this initiative, I collected over 1000 items, including board games, racquets, skates, and other athletic gear. I also raised INR 1.3 lakhs, which was used to fulfill the wish lists of NGOs supporting marginalized communities in the Delhi-NCR region.",
@@ -208,7 +208,7 @@ export const experiences: Experience[] = [
     name: "More than play",
     pic: require("./images/placeholder.png"),
     timeline: "Apr 2023 – present",
-    title: "Cofounder",
+    title: "Lead Student Volunteer",
     category: Category.Interests,
     bullets: [
       "As the Lead Student Volunteer for More Than Play, I work to teach life skills through sports to children from less economically stable backgrounds. By using team games, I've helped improve their conflict resolution, confidence, and leadership skills. I’ve also recruited and trained new volunteers, shared best practices on leadership development through sports, and organized a cricket tournament where coaches conducted training sessions for the children.",
@@ -220,7 +220,7 @@ export const experiences: Experience[] = [
     name: "Sports pics",
     pic: require("./images/placeholder.png"),
     timeline: "Sept. 2023",
-    title: "Cofounder",
+    title: "Me",
     category: Category.Interests,
     bullets: ["Fill"],
     images: [],
