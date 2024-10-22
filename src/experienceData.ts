@@ -111,7 +111,7 @@ export const experiences: Experience[] = [
   {
     name: "Is the GPI a more comprehensive measure of economic progress than traditional economic indicators",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
+    timeline: "Dec 2023 – Jan 2024",
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
