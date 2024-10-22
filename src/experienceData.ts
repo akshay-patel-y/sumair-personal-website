@@ -207,7 +207,7 @@ export const experiences: Experience[] = [
   {
     name: "More than play",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
+    timeline: "Apr 2023 – present",
     title: "Cofounder",
     category: Category.Interests,
     bullets: [
