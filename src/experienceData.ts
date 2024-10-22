@@ -217,7 +217,7 @@ export const experiences: Experience[] = [
     buttons: [
       {
         src: "https://www.instagram.com/p/C5umngqPIFa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
-        label: "Featured"
+        label: "Featured!"
       }
     ],
   },
