@@ -140,7 +140,7 @@ export const experiences: Experience[] = [
   {
     name: "Makers Asylum",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
+    timeline: "Mar – Jun 2024",
     title: "Cofounder",
     category: Category.Building,
     bullets: [
@@ -161,7 +161,7 @@ export const experiences: Experience[] = [
   {
     name: "NSLC",
     pic: require("./images/placeholder.png"),
-    timeline: "Current",
+    timeline: "Summer 2023",
     title: "Participant",
     category: Category.Building,
     bullets: [
