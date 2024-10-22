@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       ></link>
       <Profile
         name="Sumair"
-        bio="I'm currently a student at The Shri Ram School, pursuing the International Baccalaureate while leading several initiatives in leadership and education equity. I head the student council, where I manage a 28-member team, organize school events, and mentor younger students. Alongside my school responsibilities, I'm deeply involved in initiatives such as Up SportsHub, where I promote sports culture through upcycling, and Thrive Today, where I help cultivate leadership and communication skills for students from economically weaker sections. In my free time, I enjoy playing basketball, exploring new STEM projects, and volunteering to teach life skills through sports."
+        bio="I am currently a student at The Shri Ram School, pursuing the International Baccalaureate while leading several initiatives in leadership and education equity. I head the student council, managing a 28-member team, organizing school events, and mentoring younger students. Alongside my school responsibilities, I'm deeply involved in initiatives such as Up SportsHub, where I promote sports culture through upcycling, and Thrive Today, where I help cultivate leadership and communication skills for underserved students. In my free time, I enjoy playing basketball, exploring new STEM projects, and volunteering to teach life skills through sports."
         tag="Resume"
         title="University of California, Berkeley M.E.T 22'"
       />
