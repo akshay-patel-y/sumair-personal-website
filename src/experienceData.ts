@@ -138,7 +138,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "Anicut Capital, New Delhi – Exploring the World of Venture Capital",
+    name: "Anicut Capital – Exploring the World of Venture Capital",
     pic: require("./images/anicut.webp"),
     timeline: "Jun 2024",
     title: "Intern",
