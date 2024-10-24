@@ -53,7 +53,7 @@ const upsportImages: Image[] = [
 export const experiences: Experience[] = [
   {
     name: "Thrive Today – Where Education Meets Empathy",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/thriveTodayPlaceholder.webp"),
     timeline: "Jan 2024 – present",
     title: "Founder & Lead Organizer",
     category: Category.Education,
@@ -65,7 +65,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Research on EWS Inclusivity – Creating a Blueprint for Change",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/ewsPlaceholder.webp"),
     timeline: "Sept 2024 – present",
     title: "Researcher",
     category: Category.Education,
@@ -77,7 +77,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Confederation of Indian Industry (CII) Education Panel – Amplifying Student Voices",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/CII.webp"),
     timeline: "July. 2024",
     title: "Research Associate",
     category: Category.Education,
@@ -89,7 +89,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Cognitive Biases in Sports – Blending Psychology and Economics",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/cbadm.webp"),
     timeline: "May – Jun 2024",
     title: "Independent Research",
     category: Category.Economics,
@@ -109,7 +109,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Exploring Economic Progress – Beyond GDP",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/eep.webp"),
     timeline: "Dec 2023 – Jan 2024",
     title: "Independent Research",
     category: Category.Economics,
@@ -121,7 +121,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "John Locke Brief",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/billion.webp"),
     timeline: "Sept. 2023",
     title: "Independent Research",
     category: Category.Economics,
@@ -138,7 +138,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Makers Asylum – From Curiosity to Creation",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/guitar.webp"),
     timeline: "Mar – Jun 2024",
     title: "Participant & Innovator",
     category: Category.Building,
@@ -158,25 +158,8 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "NSLC",
-    pic: require("./images/placeholder.png"),
-    timeline: "Summer 2023",
-    title: "Participant",
-    category: Category.Building,
-    bullets: [
-      "During this project, I gained hands-on experience in soldering, CAD design, and windmill construction, while also developing a productivity-boosting website tailored to meet diverse learning needs. Additionally, I contributed to a civil engineering initiative focused on sustainable urban planning, applying practical skills to address real-world challenges in creating more eco-friendly and efficient urban environments.",
-    ],
-    images: [],
-    buttons: [
-      {
-        src: "https://docs.google.com/presentation/d/1g5AH2gtWxPzB6rNf7NY0SnseNgq785UT/edit#slide=id.p1",
-        label: "Project Link",
-      },
-    ],
-  },
-  {
     name: "GetItDone – Personalized Learning for Diverse Needs",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/getitdone.webp"),
     timeline: "July. 2023",
     title: "Cofounder",
     category: Category.Building,
@@ -192,7 +175,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Up SportsHub – Building Community Through Sports",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/up.webp"),
     timeline: "Jan 2024 – present",
     title: "Founder",
     category: Category.Interests,
@@ -204,7 +187,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "More Than Play – Empowering Children Through Sports",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/more.webp"),
     timeline: "Apr 2023 – present",
     title: "Lead Student Volunteer",
     category: Category.Interests,
@@ -220,7 +203,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Sports pics",
-    pic: require("./images/placeholder.png"),
+    pic: require("./images/sports.webp"),
     timeline: "Sept. 2023",
     title: "Me",
     category: Category.Interests,
