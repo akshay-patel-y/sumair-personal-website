@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
     title: "Founder & Lead Organizer",
     category: Category.Education,
     bullets: [
-      "As the founder of Thrive Today, I wanted to address a gap in India’s Right to Education Act—one that overlooks the importance of soft skills in shaping a child’s success. In weekly sessions with 6th and 7th graders from marginalized backgrounds, I’ve built trust through role-playing games and personal vulnerability, helping these students gain confidence and navigate challenges in a supportive environment. This work allowed me to pass leadership to younger students, ensuring the program continues to grow and foster integration across socioeconomic lines.",
+      "As the founder of Thrive Today, I wanted to address a gap in India’s Right to Education Act—one that overlooks the importance of soft skills in shaping a child’s success. In weekly sessions with 6th and 7th graders from marginalized backgrounds, I built trust through role-playing games and personal vulnerability, helping these students gain confidence and navigate challenges in a supportive environment. This initiative allowed me to mentor younger students, empowering them to become leaders themselves as they continue to foster integration across socioeconomic lines. Thrive Today reflects my commitment to education equity and my belief in the power of empathy and communication.",
     ],
     images: thriveImages,
     buttons: [],
@@ -70,7 +70,7 @@ export const experiences: Experience[] = [
     title: "Researcher",
     category: Category.Education,
     bullets: [
-      "Driven by a commitment to education equity, I conducted research on the challenges faced by Economically Weaker Section (EWS) students in private schools. By collecting and analyzing data, I developed a blueprint for enhancing inclusivity and academic success in schools, suggesting practical steps to foster a more welcoming environment for all students.",
+      "Driven by a commitment to education equity, I conducted research on the challenges faced by Economically Weaker Section (EWS) students in private schools. By collecting and analyzing data, I developed a blueprint for enhancing inclusivity and academic success in schools, suggesting practical steps to foster a more welcoming environment for all students. This project expanded my understanding of systemic educational barriers and fueled my passion for using data-driven insights to advocate for change. Through this research, I aimed to create actionable solutions that could bridge gaps in educational opportunities for underserved students.",
     ],
     images: [],
     buttons: [],
@@ -82,7 +82,7 @@ export const experiences: Experience[] = [
     title: "Research Associate",
     category: Category.Education,
     bullets: [
-      "Serving as one of four student representatives on the Confederation of Indian Industry Education Panel, I’ve been able to provide recommendations to improve public education in Delhi. My current focus is a white paper on social and emotional well-being, which will be submitted to the Delhi State Government, contributing to a more holistic approach to education.",
+      "As one of four student representatives on the Confederation of Indian Industry Education Panel, I have had the privilege of contributing to important conversations around public education in Delhi. My role on the panel allowed me to provide recommendations to improve the education system, particularly in the realm of social and emotional well-being. Currently, I am working on a white paper that will be submitted to the Delhi State Government, advocating for a more holistic approach to education. This experience deepened my understanding of policy-making and taught me how to amplify student voices to influence long-term educational reform.",
     ],
     images: [],
     buttons: [],
@@ -94,7 +94,8 @@ export const experiences: Experience[] = [
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
-      "In my independent research, I explore how athletes, under the pressure of time, often rely on intuitive thinking—leading to cognitive biases that influence decision-making. This exploration of cognitive biases blends my interest in psychology and economics, highlighting the real-world impact of decision-making under pressure and offering strategies to mitigate these biases for better athletic performance."],
+      "In my independent research on cognitive biases in sports, I explored how athletes, under the pressure of time, often rely on intuitive thinking—leading to cognitive biases that influence decision-making. This project allowed me to blend my interests in psychology and economics, demonstrating how different fields can converge to address real-world issues. By analyzing these biases, I proposed strategies for athletes to mitigate them and improve performance. This research exemplifies my curiosity-driven approach to solving problems and my passion for understanding the human mind’s role in critical decision-making.",
+    ],
     images: [],
     buttons: [
       {
@@ -114,7 +115,7 @@ export const experiences: Experience[] = [
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
-      "My passion for economics drove me to investigate the Genuine Progress Indicator (GPI) as an alternative to traditional economic metrics. Through my research, I argued that GPI offers a more comprehensive measure of progress by accounting for sustainability and social well-being, challenging conventional views on how we evaluate economic success.",
+      "My passion for economics led me to investigate the Genuine Progress Indicator (GPI) as an alternative to traditional economic metrics. In this research, I challenged conventional measures like GDP and argued that GPI offers a more comprehensive evaluation of progress by factoring in sustainability and social well-being. This project fueled my drive to rethink entrenched systems and consider innovative approaches to societal progress. By advocating for GPI, I sought to contribute to a more balanced understanding of economic success, aligning with my belief in holistic solutions that prioritize long-term well-being.",
     ],
     images: [],
     buttons: [],
@@ -126,7 +127,7 @@ export const experiences: Experience[] = [
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
-      "In my paper, What Would Happen if We Banned Billionaires?, I explore both sides of the debate surrounding a potential ban on billionaires. On one hand, banning them could lead to wealth redistribution, lower poverty, and reduced political and environmental harm. On the other hand, it may lead to economic instability, increased unemployment, and a decline in innovation. While banning billionaires might seem like a solution to inequality, I argue that the negatives—such as hindering entrepreneurship and economic growth—outweigh the benefits, and a more balanced approach is necessary. ",
+      "In my paper, What Would Happen if We Banned Billionaires?, I explored both sides of the debate surrounding a potential ban on billionaires. On one hand, banning them could lead to wealth redistribution, lower poverty, and reduced political and environmental harm. On the other hand, it may lead to economic instability, increased unemployment, and a decline in innovation. While banning billionaires might seem like a solution to inequality, I argued that the negatives—such as hindering entrepreneurship and economic growth—outweigh the benefits. This project reflects my ability to critically assess complex issues from multiple angles and offer balanced, data-driven insights.",
     ],
     images: [],
     buttons: [
@@ -143,7 +144,7 @@ export const experiences: Experience[] = [
     title: "Participant & Innovator",
     category: Category.Building,
     bullets: [
-      "The GuitarGlove project is where my passion for creativity and innovation comes to life. By combining LEDs and sensors, I created a glove that simplifies learning guitar chords. This hands-on project at Makers Asylum not only showcased my curiosity and problem-solving skills but also my desire to make learning more accessible and fun.",
+      "The GuitarGlove project is where my passion for creativity and innovation comes to life. By combining LEDs and sensors, I created a glove that simplifies learning guitar chords, making the instrument more accessible to beginners. This hands-on project at Makers Asylum allowed me to apply my technical skills to solve a practical problem, while also nurturing my curiosity and love for STEM. It demonstrated my belief that technology can make learning more engaging and accessible for everyone, showcasing my commitment to using innovation to empower others.",
     ],
     images: [],
     buttons: [
@@ -164,7 +165,8 @@ export const experiences: Experience[] = [
     title: "Cofounder",
     category: Category.Building,
     bullets: [
-      "Cofounding GetItDone allowed me to merge my technical skills with my passion for inclusivity. This productivity app personalizes learning for students with diverse needs, using AI to offer tailored teaching methods and sensory tools. Through this project, I sought to make education accessible and engaging for everyone, from neurodivergent students to those with unique learning styles."    ],
+      "Cofounding GetItDone allowed me to merge my technical skills with my passion for inclusivity in education. This productivity app personalizes learning for students with diverse needs, using AI to offer tailored teaching methods and sensory tools. Through this project, I aimed to make education accessible and engaging for everyone, from neurodivergent students to those with unique learning styles. GetItDone embodies my belief in the power of personalized learning and highlights my desire to create solutions that cater to individuals, ensuring that no one is left behind.",
+    ],
     images: [],
     buttons: [
       {
@@ -180,7 +182,7 @@ export const experiences: Experience[] = [
     title: "Founder",
     category: Category.Interests,
     bullets: [
-      "Upcycling athletic equipment and promoting sports culture across social segments led me to found Up SportsHub. In January 2024, I began collecting donations and athletic gear to support NGOs serving marginalized communities. The initiative, which raised INR 1.3 lakhs, allowed children across Delhi-NCR to access resources that enhance both their physical and emotional well-being.",
+      "Upcycling athletic equipment and promoting sports culture across social segments led me to found Up SportsHub. In January 2024, I began collecting donations and athletic gear to support NGOs serving marginalized communities. This initiative, which raised INR 1.3 lakhs, allowed children across Delhi-NCR to access resources that enhance both their physical and emotional well-being. Up SportsHub combines my passion for sports and community-building, demonstrating how sports can serve as a tool for inclusion and empowerment, particularly for those who face economic barriers.",
     ],
     images: upsportImages,
     buttons: [],
@@ -192,7 +194,8 @@ export const experiences: Experience[] = [
     title: "Lead Student Volunteer",
     category: Category.Interests,
     bullets: [
-      "As the Lead Student Volunteer for More Than Play, I’ve used sports as a tool to teach life skills like leadership, conflict resolution, and confidence to children from less economically stable backgrounds. Organizing a cricket tournament and recruiting volunteers have been pivotal in extending the initiative’s impact, showing how play can be more than just fun—it’s a platform for growth."    ],
+      "As the Lead Student Volunteer for More Than Play, I’ve used sports as a tool to teach life skills like leadership, conflict resolution, and confidence to children from less economically stable backgrounds. Organizing a cricket tournament and recruiting volunteers have been pivotal in extending the initiative’s impact. This experience highlighted my belief in the transformative power of sports, not just as a recreational activity, but as a platform for personal growth. Through More Than Play, I’ve seen firsthand how sports can empower individuals, build character, and create opportunities for leadership.",
+    ],
     images: [],
     buttons: [
       {
