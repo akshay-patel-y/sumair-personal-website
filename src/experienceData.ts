@@ -9,10 +9,10 @@ import upsport3 from "./images/Upsport3.jpeg";
 import upsport4 from "./images/Upsport4.jpeg";
 
 export enum Category {
-  Education = "Causes close to my heart",
+  Education = "Empowering Through Education",
   Economics = "Economics in Action",
-  Building = "Curiosity into creation",
-  Interests = "Where you’ll find me",
+  Building = "Curiosity in Creation",
+  Interests = "Where You’ll Find Me",
 }
 
 interface Image {
