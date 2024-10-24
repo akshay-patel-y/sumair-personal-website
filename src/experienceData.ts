@@ -52,50 +52,49 @@ const upsportImages: Image[] = [
 
 export const experiences: Experience[] = [
   {
-    name: "Thrive Today",
+    name: "Thrive Today – Where Education Meets Empathy",
     pic: require("./images/placeholder.png"),
     timeline: "Jan 2024 – present",
     title: "Founder & Lead Organizer",
     category: Category.Education,
     bullets: [
-      "Motivated by the gaps I noticed in India’s Right to Education Act, I founded Thrive Today to focus on an often-overlooked dimension of success—soft skills. Through weekly sessions with forty 6th and 7th graders from marginalized backgrounds at my school, I work on building trust through role-playing games, musical conversations, and sharing personal vulnerabilities. Over time, these students have gained confidence in their speech and become more open about their challenges, helping them bridge the socioeconomic divide. As I continue this work, I’ve passed leadership on to younger students to ensure this supportive environment continues to grow and impact more lives.",
+      "As the founder of Thrive Today, I wanted to address a gap in India’s Right to Education Act—one that overlooks the importance of soft skills in shaping a child’s success. In weekly sessions with 6th and 7th graders from marginalized backgrounds, I’ve built trust through role-playing games and personal vulnerability, helping these students gain confidence and navigate challenges in a supportive environment. This work allowed me to pass leadership to younger students, ensuring the program continues to grow and foster integration across socioeconomic lines.",
     ],
     images: thriveImages,
     buttons: [],
   },
   {
-    name: "TSRS EWS Report",
+    name: "Research on EWS Inclusivity – Creating a Blueprint for Change",
     pic: require("./images/placeholder.png"),
     timeline: "Sept 2024 – present",
     title: "Researcher",
     category: Category.Education,
     bullets: [
-      "I conducted research using primary data from surveys to explore the challenges faced by EWS (Economically Weaker Section) students in private schools. Based on the findings, I suggested initiatives to enhance inclusivity and academic success, offering a blueprint for schools in the region.",
+      "Driven by a commitment to education equity, I conducted research on the challenges faced by Economically Weaker Section (EWS) students in private schools. By collecting and analyzing data, I developed a blueprint for enhancing inclusivity and academic success in schools, suggesting practical steps to foster a more welcoming environment for all students.",
     ],
     images: [],
     buttons: [],
   },
   {
-    name: "Confederation of Indian Industry Education Panel (CII)",
+    name: "Confederation of Indian Industry (CII) Education Panel – Amplifying Student Voices",
     pic: require("./images/placeholder.png"),
     timeline: "July. 2024",
     title: "Research Associate",
     category: Category.Education,
     bullets: [
-      "As a Research Associate for the Confederation of Indian Industry Education Panel (CII) in New Delhi, I serve as one of four student representatives providing recommendations on public education in Delhi. I am currently working on a white paper focused on social and emotional well-being, which will be submitted to the Delhi State Government.",
+      "Serving as one of four student representatives on the Confederation of Indian Industry Education Panel, I’ve been able to provide recommendations to improve public education in Delhi. My current focus is a white paper on social and emotional well-being, which will be submitted to the Delhi State Government, contributing to a more holistic approach to education.",
     ],
     images: [],
     buttons: [],
   },
   {
-    name: "Cognitive Biases and Athlete’s Decision-Making Abilities",
+    name: "Cognitive Biases in Sports – Blending Psychology and Economics",
     pic: require("./images/placeholder.png"),
     timeline: "May – Jun 2024",
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
-      "In my research, I explore how athletes, under time constraints, often rely on fast, intuitive thinking (System 1) rather than slower, rational thought processes (System 2), leading to cognitive biases. While traditional economic theory suggests that people make rational decisions to maximize benefits, my study highlights how emotions and biases—such as the availability heuristic, anchoring bias, sunk cost fallacy, and framing bias—can influence athletic decisions. Through primary research with amateur athletes, I identify these biases in action and propose strategies to mitigate their effects, aiming to enhance performance in high-pressure situations.",
-    ],
+      "In my independent research, I explore how athletes, under the pressure of time, often rely on intuitive thinking—leading to cognitive biases that influence decision-making. This exploration of cognitive biases blends my interest in psychology and economics, highlighting the real-world impact of decision-making under pressure and offering strategies to mitigate these biases for better athletic performance."],
     images: [],
     buttons: [
       {
@@ -109,13 +108,13 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "Is the GPI a more comprehensive measure of economic progress than traditional economic indicators",
+    name: "Exploring Economic Progress – Beyond GDP",
     pic: require("./images/placeholder.png"),
     timeline: "Dec 2023 – Jan 2024",
     title: "Independent Research",
     category: Category.Economics,
     bullets: [
-      "I conducted independent research to determine whether the Genuine Progress Indicator (GPI) offers a more comprehensive measure of economic progress compared to traditional indicators like GDP, HDI, GNI, government budgets, and money supply. By evaluating the limitations of these conventional metrics in accounting for environmental sustainability, social well-being, and income inequality, I explored how GPI can address these gaps. My study demonstrates that GPI provides a more accurate reflection of true societal progress, highlighting its potential to better capture the multifaceted aspects of economic development.",
+      "My passion for economics drove me to investigate the Genuine Progress Indicator (GPI) as an alternative to traditional economic metrics. Through my research, I argued that GPI offers a more comprehensive measure of progress by accounting for sustainability and social well-being, challenging conventional views on how we evaluate economic success.",
     ],
     images: [],
     buttons: [],
@@ -138,13 +137,13 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "Makers Asylum",
+    name: "Makers Asylum – From Curiosity to Creation",
     pic: require("./images/placeholder.png"),
     timeline: "Mar – Jun 2024",
     title: "Participant & Innovator",
     category: Category.Building,
     bullets: [
-      "The GuitarGlove project was created to make learning guitar chords easier and more intuitive for beginners. The smart glove has six LEDs on each finger, representing the guitar's strings, and lights up to indicate the correct finger placement. It also features sensors that detect the hand's position and only activate the LEDs when the hand is in the right position to play the chord. The glove connects to a guitar learning website, offering a fun and engaging way for users to learn chords without the need for expensive lessons or difficult music theory.",
+      "The GuitarGlove project is where my passion for creativity and innovation comes to life. By combining LEDs and sensors, I created a glove that simplifies learning guitar chords. This hands-on project at Makers Asylum not only showcased my curiosity and problem-solving skills but also my desire to make learning more accessible and fun.",
     ],
     images: [],
     buttons: [
@@ -176,14 +175,13 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "GetItDone: An App to Enhance Productivity",
+    name: "GetItDone – Personalized Learning for Diverse Needs",
     pic: require("./images/placeholder.png"),
     timeline: "July. 2023",
     title: "Cofounder",
     category: Category.Building,
     bullets: [
-      "GetItDone is an app designed to enhance productivity by personalizing learning for students with different learning styles and neurodivergent needs. It offers a tailored experience by using an initial quiz to create a personalized learning schedule based on each student's environment and preferences. The app includes alternative teaching methods, such as documentaries, podcasts, 3D models, and community discussions, all powered by AI to suit various learning types. Additionally, GetItDone provides physical accommodations like sensory toys for neurodivergent students, aiming to make education more accessible and engaging for all learners.",
-    ],
+      "Cofounding GetItDone allowed me to merge my technical skills with my passion for inclusivity. This productivity app personalizes learning for students with diverse needs, using AI to offer tailored teaching methods and sensory tools. Through this project, I sought to make education accessible and engaging for everyone, from neurodivergent students to those with unique learning styles."    ],
     images: [],
     buttons: [
       {
@@ -193,32 +191,31 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "Up SportsHub",
+    name: "Up SportsHub – Building Community Through Sports",
     pic: require("./images/placeholder.png"),
     timeline: "Jan 2024 – present",
     title: "Founder",
     category: Category.Interests,
     bullets: [
-      "I launched Up SportsHub in January 2024 with the goal of upcycling athletic equipment and promoting sports culture across various social segments. Through this initiative, I collected over 1000 items, including board games, racquets, skates, and other athletic gear. I also raised INR 1.3 lakhs, which was used to fulfill the wish lists of NGOs supporting marginalized communities in the Delhi-NCR region.",
+      "Upcycling athletic equipment and promoting sports culture across social segments led me to found Up SportsHub. In January 2024, I began collecting donations and athletic gear to support NGOs serving marginalized communities. The initiative, which raised INR 1.3 lakhs, allowed children across Delhi-NCR to access resources that enhance both their physical and emotional well-being.",
     ],
     images: upsportImages,
     buttons: [],
   },
   {
-    name: "More than play",
+    name: "More Than Play – Empowering Children Through Sports",
     pic: require("./images/placeholder.png"),
     timeline: "Apr 2023 – present",
     title: "Lead Student Volunteer",
     category: Category.Interests,
     bullets: [
-      "As the Lead Student Volunteer for More Than Play, I work to teach life skills through sports to children from less economically stable backgrounds. By using team games, I've helped improve their conflict resolution, confidence, and leadership skills. I’ve also recruited and trained new volunteers, shared best practices on leadership development through sports, and organized a cricket tournament where coaches conducted training sessions for the children.",
-    ],
+      "As the Lead Student Volunteer for More Than Play, I’ve used sports as a tool to teach life skills like leadership, conflict resolution, and confidence to children from less economically stable backgrounds. Organizing a cricket tournament and recruiting volunteers have been pivotal in extending the initiative’s impact, showing how play can be more than just fun—it’s a platform for growth."    ],
     images: [],
     buttons: [
       {
         src: "https://www.instagram.com/p/C5umngqPIFa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D",
-        label: "Featured!"
-      }
+        label: "Featured!",
+      },
     ],
   },
   {
