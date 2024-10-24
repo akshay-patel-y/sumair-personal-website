@@ -138,6 +138,31 @@ export const experiences: Experience[] = [
     ],
   },
   {
+    name: "Anicut Capital, New Delhi – Exploring the World of Venture Capital",
+    pic: require("./images/anicut.webp"),
+    timeline: "Jun 2024",
+    title: "Intern",
+    category: Category.Economics,
+    bullets: [
+      "During my internship at Anicut Capital, I shadowed the angel fund team and learned the intricacies of early-stage investments. Over the course of three weeks, I prepared detailed notes for two potential deals, offering insights into founder backgrounds, investor landscapes, and post-money valuations. This experience deepened my understanding of how startups are evaluated, what metrics matter, and how financial support can drive innovation. It also connected to my broader interest in using entrepreneurship to drive social impact, showing me how strategic investments can help groundbreaking ideas flourish.",
+    ],
+    images: [],
+    buttons: [],
+  },
+  {
+    name: "Accenture @The Forage – Using Data to Drive Strategic Decisions",
+    pic: require("./images/accenture.webp"),
+    timeline: "Jun 2023",
+    title: "Virtual Internship",
+    category: Category.Economics,
+    bullets: [
+      "During my virtual internship with Accenture, I analyzed seven data sets to uncover key consumption trends and inform strategic marketing decisions. I then prepared a PowerPoint and video presentation to communicate these insights to Accenture’s stakeholders, showcasing how data analysis can drive business growth. This experience reinforced my passion for data-driven decision-making, combining problem-solving with clear communication to deliver actionable results.",
+    ],
+    images: [],
+    buttons: [],
+  },
+
+  {
     name: "Makers Asylum – From Curiosity to Creation",
     pic: require("./images/guitar.webp"),
     timeline: "Mar – Jun 2024",
