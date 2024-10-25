@@ -118,7 +118,12 @@ export const experiences: Experience[] = [
       "My passion for economics led me to investigate the Genuine Progress Indicator (GPI) as an alternative to traditional economic metrics. In this research, I challenged conventional measures like GDP and argued that GPI offers a more comprehensive evaluation of progress by factoring in sustainability and social well-being. This project fueled my drive to rethink entrenched systems and consider innovative approaches to societal progress. By advocating for GPI, I sought to contribute to a more balanced understanding of economic success, aligning with my belief in holistic solutions that prioritize long-term well-being.",
     ],
     images: [],
-    buttons: [],
+    buttons: [
+      {
+        src: require("./images/gpi.pdf"),
+        label: "Paper Link",
+      },
+    ],
   },
   {
     name: "John Locke Brief",
