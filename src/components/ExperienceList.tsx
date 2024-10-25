@@ -4,8 +4,8 @@ import ExperienceAccordion from "./ExperienceAccordion";
 
 const ExperienceList: React.FC = () => {
   const categories = [
-    Category.Education,
     Category.Economics,
+    Category.Education,
     Category.Building,
     Category.Interests,
   ];
