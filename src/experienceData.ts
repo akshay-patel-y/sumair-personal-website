@@ -146,7 +146,7 @@ export const experiences: Experience[] = [
     name: "Anicut Capital – Exploring the World of Venture Capital",
     pic: require("./images/anicut.webp"),
     timeline: "Jun 2024",
-    title: "Intern",
+    title: "Internship",
     category: Category.Economics,
     bullets: [
       "During my internship at Anicut Capital, I shadowed the angel fund team and learned the intricacies of early-stage investments. Over the course of three weeks, I prepared detailed notes for two potential deals, offering insights into founder backgrounds, investor landscapes, and post-money valuations. This experience deepened my understanding of how startups are evaluated, what metrics matter, and how financial support can drive innovation. It also connected to my broader interest in using entrepreneurship to drive social impact, showing me how strategic investments can help groundbreaking ideas flourish.",
