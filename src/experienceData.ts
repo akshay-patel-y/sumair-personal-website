@@ -53,7 +53,7 @@ const upsportImages: Image[] = [
 export const experiences: Experience[] = [
   {
     name: "Thrive Today – Where Education Meets Empathy",
-    pic: require("./images/thriveTodayPlaceholder.webp"),
+    pic: require("./images/thriveTodayPlaceholder.png"),
     timeline: "Jan 2024 – present",
     title: "Founder & Lead Organizer",
     category: Category.Education,
@@ -65,7 +65,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Research on EWS Inclusivity – Creating a Blueprint for Change",
-    pic: require("./images/ewsPlaceholder.webp"),
+    pic: require("./images/ewsPlaceholder.png"),
     timeline: "Sept 2024 – present",
     title: "Researcher",
     category: Category.Education,
@@ -77,7 +77,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Confederation of Indian Industry (CII) Education Panel – Amplifying Student Voices",
-    pic: require("./images/CII.webp"),
+    pic: require("./images/CII.png"),
     timeline: "July. 2024",
     title: "Research Associate",
     category: Category.Education,
@@ -89,7 +89,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Cognitive Biases in Sports – Blending Psychology and Economics",
-    pic: require("./images/cbadm.webp"),
+    pic: require("./images/cbadm.png"),
     timeline: "May – Jun 2024",
     title: "Independent Research",
     category: Category.Economics,
@@ -110,7 +110,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Exploring Economic Progress – Beyond GDP",
-    pic: require("./images/eep.webp"),
+    pic: require("./images/eep.png"),
     timeline: "Dec 2023 – Jan 2024",
     title: "Independent Research",
     category: Category.Economics,
@@ -127,7 +127,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "John Locke Brief",
-    pic: require("./images/billion.webp"),
+    pic: require("./images/billion.png"),
     timeline: "Sept. 2023",
     title: "Independent Research",
     category: Category.Economics,
@@ -144,7 +144,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Anicut Capital – Exploring the World of Venture Capital",
-    pic: require("./images/anicut.webp"),
+    pic: require("./images/anicut.png"),
     timeline: "Jun 2024",
     title: "Internship",
     category: Category.Economics,
@@ -156,7 +156,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Accenture @The Forage – Using Data to Drive Strategic Decisions",
-    pic: require("./images/accenture.webp"),
+    pic: require("./images/accenture.png"),
     timeline: "Jun 2023",
     title: "Virtual Internship",
     category: Category.Economics,
@@ -169,7 +169,7 @@ export const experiences: Experience[] = [
 
   {
     name: "Makers Asylum – From Curiosity to Creation",
-    pic: require("./images/guitar.webp"),
+    pic: require("./images/guitar.png"),
     timeline: "Mar – Jun 2024",
     title: "Participant & Innovator",
     category: Category.Building,
@@ -190,7 +190,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "GetItDone – Personalized Learning for Diverse Needs",
-    pic: require("./images/getitdone.webp"),
+    pic: require("./images/getitdone.png"),
     timeline: "July. 2023",
     title: "Cofounder",
     category: Category.Building,
@@ -207,7 +207,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "Up SportsHub – Building Community Through Sports",
-    pic: require("./images/up.webp"),
+    pic: require("./images/up.png"),
     timeline: "Jan 2024 – present",
     title: "Founder",
     category: Category.Interests,
@@ -219,7 +219,7 @@ export const experiences: Experience[] = [
   },
   {
     name: "More Than Play – Empowering Children Through Sports",
-    pic: require("./images/more.webp"),
+    pic: require("./images/more.png"),
     timeline: "Apr 2023 – present",
     title: "Lead Student Volunteer",
     category: Category.Interests,
