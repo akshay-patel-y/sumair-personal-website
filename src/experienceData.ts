@@ -12,7 +12,7 @@ export enum Category {
   Education = "Empowering Through Education",
   Economics = "Economics in Action",
   Building = "Curiosity to Creation",
-  Interests = "Where You’ll Find Me",
+  Interests = "Sports for Impact",
 }
 
 interface Image {
