@@ -9,7 +9,7 @@ import upsport3 from "./images/Upsport3.jpeg";
 import upsport4 from "./images/Upsport4.jpeg";
 
 export enum Category {
-  Education = "Empowering Through Education",
+  Education = "Empowering through Education",
   Economics = "Economics in Action",
   Building = "Curiosity to Creation",
   Interests = "Sports for Impact",
