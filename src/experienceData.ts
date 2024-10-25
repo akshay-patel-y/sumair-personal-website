@@ -234,14 +234,4 @@ export const experiences: Experience[] = [
       },
     ],
   },
-  {
-    name: "Sports pics",
-    pic: require("./images/sports.webp"),
-    timeline: "Sept. 2023",
-    title: "Me",
-    category: Category.Interests,
-    bullets: ["Fill"],
-    images: [],
-    buttons: [],
-  },
 ];
