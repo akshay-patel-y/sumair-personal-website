@@ -26,9 +26,7 @@ const ExperienceAccordion: React.FC<ExperienceAccordionProps> = ({
         />
         <div className="accordion-title">
           <h2>{experience.title}</h2>
-          <p>
-            {experience.name} - {experience.timeline}
-          </p>
+          <p>{experience.name}</p>
         </div>
         <span className="accordion-icon">{isOpen ? "-" : "+"}</span>
       </div>
@@ -37,15 +35,11 @@ const ExperienceAccordion: React.FC<ExperienceAccordionProps> = ({
           <div className="accordion-content">
             <div className="accordion-details">
               {experience.description && <p>{experience.description}</p>}
-              <ul>
-                {experience.bullets.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
+              <ul>{experience.bullets.map((item, index) => item)}</ul>
             </div>
           </div>
           <ImageCarousel images={experience.images} />
-          <ButtonRow buttons={experience.buttons}/>
+          <ButtonRow buttons={experience.buttons} />
         </>
       )}
     </div>
