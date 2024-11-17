@@ -7,17 +7,6 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <nav className="top-nav">
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            {/* <li>
-              <Link to="/experience">Experience</Link>
-            </li> */}
-          </ul>
-        </nav>
-
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
