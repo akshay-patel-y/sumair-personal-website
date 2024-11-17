@@ -10,38 +10,10 @@ interface ProfileProps {
 }
 
 const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
-  const messages = [`Hi! I'm ${name}.`, "Welcome to my website!"];
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(150); // Speed of typing/deleting
-
-  useEffect(() => {
-    let timeout: string | number | NodeJS.Timeout | undefined;
-    const fullText = messages[currentMessageIndex];
-
-    if (isDeleting) {
-      timeout = setTimeout(() => {
-        setDisplayedText((prev) => prev.slice(0, -1));
-      }, typingSpeed);
-    } else {
-      timeout = setTimeout(() => {
-        setDisplayedText((prev) => fullText.slice(0, prev.length + 1));
-      }, typingSpeed);
-    }
-
-    // When the typing is done
-    if (!isDeleting && displayedText === fullText) {
-      // Wait for 2 seconds before starting to delete
-      timeout = setTimeout(() => setIsDeleting(true), 2000);
-    } else if (isDeleting && displayedText === "") {
-      // Move to the next message after deleting
-      setIsDeleting(false);
-      setCurrentMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
-    }
-
-    return () => clearTimeout(timeout);
-  }, [displayedText, isDeleting, currentMessageIndex, messages, typingSpeed]);
 
   return (
     <div className="profile-wrapper">
@@ -53,9 +25,9 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
           borderRadius: "10%",
         }}
       />
-      <h1 className="typewriter">
+      <h1>
         <div style={{ display: "flex", alignItems: "center", height: "50px" }}>
-          {displayedText}
+          Hi, I'm {name}!
         </div>
       </h1>
 
