@@ -120,7 +120,7 @@ export const experiences: Experience[] = [
     images: [],
     buttons: [
       {
-        src: require("./images/gpi.pdf"),
+        src: "https://www.ijaresm.com/uploaded_files/document_file/Sumair_AhujaDKS1.pdf",
         label: "Paper Link",
       },
     ],
@@ -129,7 +129,7 @@ export const experiences: Experience[] = [
     name: "John Locke Brief",
     pic: require("./images/billion.png"),
     timeline: "Sept. 2023",
-    title: "Independent Research",
+    title: "Essay Competition",
     category: Category.Economics,
     bullets: [
       "In my paper, What Would Happen if We Banned Billionaires?, I explored both sides of the debate surrounding a potential ban on billionaires. On one hand, banning them could lead to wealth redistribution, lower poverty, and reduced political and environmental harm. On the other hand, it may lead to economic instability, increased unemployment, and a decline in innovation. While banning billionaires might seem like a solution to inequality, I argued that the negatives—such as hindering entrepreneurship and economic growth—outweigh the benefits. This project reflects my ability to critically assess complex issues from multiple angles and offer balanced, data-driven insights.",
