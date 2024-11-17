@@ -75,14 +75,6 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
             src="https://docs.google.com/document/d/1Jn0g1x-R7oWsRrjMyZ6ZrD9DcxCwQLLQ/edit"
             label="Resume"
           />
-          <a
-            href="https://www.linkedin.com/in/sumair-ahuja-610517257/?originalSubdomain=in"
-            className="fa fa-linkedin fa-3x"
-          ></a>
-          <a
-            href="mailto:someone@example.com"
-            className="fa fa-envelope fa-3x"
-          ></a>
         </div>
       </div>
     </div>
