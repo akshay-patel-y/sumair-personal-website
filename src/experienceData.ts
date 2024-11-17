@@ -64,7 +64,7 @@ export const experiences: Experience[] = [
     buttons: [],
   },
   {
-    name: "Research on EWS Inclusivity – Creating a Blueprint for Change",
+    name: "Research on Inclusivity – Creating a Blueprint for Change",
     pic: require("./images/ewsPlaceholder.png"),
     timeline: "Sept 2024 – present",
     title: "Researcher",
