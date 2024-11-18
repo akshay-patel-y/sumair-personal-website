@@ -44,7 +44,7 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
           }}
         >
           <WebsiteButton
-            src="https://docs.google.com/document/d/1Jn0g1x-R7oWsRrjMyZ6ZrD9DcxCwQLLQ/edit"
+            src={require("../images/cv.pdf")}
             label="Resume"
           />
         </div>
