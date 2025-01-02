@@ -189,16 +189,20 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    name: "GetItDone – Personalized Learning for Diverse Needs",
+    name: "GetitDone – Personalized Learning for Diverse Needs",
     pic: require("./images/getitdone.png"),
     timeline: "July. 2023",
-    title: "Cofounder",
+    title: "Founder",
     category: Category.Building,
     bullets: [
       "Cofounding GetItDone allowed me to merge my technical skills with my passion for inclusivity in education. This productivity app personalizes learning for students with diverse needs, using AI to offer tailored teaching methods and sensory tools. Through this project, I aimed to make education accessible and engaging for everyone, from neurodivergent students to those with unique learning styles. GetItDone embodies my belief in the power of personalized learning and highlights my desire to create solutions that cater to individuals, ensuring that no one is left behind.",
     ],
     images: [],
     buttons: [
+      {
+        src: "http://bit.ly/SumairGetItDoneFigma",
+        label: "Prototype",
+      },
       {
         src: "https://docs.google.com/document/d/1pQ0SALnP8wuhvEpS6GIJFkLa8ihyO-o1JebpeBhO2B0/edit?tab=t.0",
         label: "Project Link",
