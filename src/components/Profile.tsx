@@ -22,7 +22,10 @@ const Profile: React.FC<ProfileProps> = ({ name, bio, tag, title }) => {
         alt="Sumair Ahuja"
         style={{
           width: "200px",
+          height: "200px",
           borderRadius: "10%",
+          objectFit: "cover",
+          objectPosition: "center 20%",
         }}
       />
       <h1>
